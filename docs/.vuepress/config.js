@@ -1,4 +1,3 @@
-const baiduCode = require('./config/baiduCode.js'); // 百度统计hm码
 const htmlModules = require('./config/htmlModules.js');
 
 
@@ -7,16 +6,38 @@ module.exports = {
   theme: 'vdoing', // 使用依赖包主题
   // theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
-  title: "vuepress-theme-vdoing",
-  description: '一个基于VuePress的 知识管理&博客 主题',
+  title: "SpiderApi - 爬虫逆向常用 API",
+  description: '爬虫逆向常用 API',
   base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
 
-    ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
-    ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
+    // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
+    // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
+    ['script', { src: '//sdk.51.la/js-sdk-pro.min.js', type: 'text/javascript', id: 'LA_COLLECT', charset: 'UTF-8' }],
+    ['script', {}, `LA.init({id:"3FpCxw5JhIELmjz2",ck:"3FpCxw5JhIELmjz2"})`],
+    ['script', {},
+    `
+    function makeMulti(string) {
+        let l = new String(string)
+        l = l.substring(l.indexOf("/*") + 3, l.lastIndexOf("*/"))
+        return "%c " + l
+    };
+    const string = function () {
+      /*
+           _____       _     __          ___          _ 
+           / ___/____  (_)___/ /__  _____/   |  ____  (_)        爬虫爬得欢
+           \\__ \\/ __ \\/ / __  / _ \\/ ___/ /| | / __ \\/ /        监狱要坐穿
+          ___/ / /_/ / / /_/ /  __/ /  / ___ |/ /_/ / /        数据玩得溜
+         /____/ .___/_/\\__,_/\\___/_/  /_/  |_/ .___/_/        牢饭吃个够
+             /_/                            /_/          
+      */
+    };
+    console.log(makeMulti(string), "color: #0084ff");
+    console.log("\\n %c © BOB'S BLOG %c itbob.cn %c © SpiderApi %c spiderapi.cn %c © vdoing %c doc.xugaoyi.com \\n", "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;", "color: #ffffff; background: #0084ff; padding:5px 0;", "background: #fadfa3; padding:5px 0;", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #fadfa3; padding:5px 0;");
+    `],
   ],
 
   // 主题配置
@@ -96,30 +117,30 @@ module.exports = {
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
       name: 'Evan Xu', // 必需
-      href: 'https://github.com/xugaoyi' // 可选的
+      href: 'https://github.com/TRHX/SpiderApi' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
       // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
       icons: [
         {
           iconClass: 'icon-youjian',
-          title: '发邮件',
-          link: 'mailto:894072666@qq.com'
+          title: '联系站长',
+          link: 'mailto:admin@itbob.cn'
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/xugaoyi'
+          link: 'https://github.com/TRHX'
         },
         {
-          iconClass: 'icon-erji',
-          title: '听音乐',
-          link: 'https://music.163.com/#/playlist?id=755597173'
+          iconClass: 'icon-blog',
+          title: '站长博客',
+          link: 'https://www.itbob.cn/'
         }
       ]
     },
     footer: { // 页脚信息
-      createYear: 2019, // 博客创建年份
+      createYear: 2023, // 博客创建年份
       copyrightInfo: 'Evan Xu | MIT License', // 博客版权信息，支持a标签
     },
     htmlModules,
@@ -155,7 +176,7 @@ module.exports = {
     [
       'vuepress-plugin-baidu-tongji', // 百度统计
       {
-        hm: baiduCode || '01293bffa6c3962016c08ba685c79d78'
+        hm: '769c2781bafe36adb3f3fcf97f2d02bd'
       }
     ],
 
