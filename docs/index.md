@@ -4,7 +4,7 @@ heroImage: /img/logo.png
 heroText: Spider API
 # tagline: 🚀爬虫逆向常用 API
 actionText: 查看目录以快速开始
-actionLink: /pages/a2f161/
+actionLink: /pages/4df94fd275d64d78/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
@@ -134,16 +134,16 @@ Spider API 项目由 <a href="https://www.itbob.cn" target="_blank">BOB</a> 在�
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <img src="https://cdn.staticaly.com/gh/xugaoyi/blog-gitalk-comment@master/img/0.4pp7r95mdai0.jpeg" class="no-zoom" style="width:120px;margin: 10px;">
-        <p>站长微信（备注来意）</p>
+        <img src="/img/qrcode/wechat.webp" class="no-zoom" style="width:150px;margin: 10px;">
+        <p>站长微信 (备注来意)</p>
       </td>
       <td align="center" valign="middle">
-        <img :src="$withBase('/img/qrcode/qqq.webp')" alt="群号: 694387113" class="no-zoom" style="width:120px;margin: 10px;">
-        <p>QQ交流群</p>
+        <img :src="$withBase('/img/qrcode/gzh.webp')" alt="群号: 694387113" class="no-zoom" style="width:150px;margin: 10px;">
+        <p>站长公众号 (爬虫矛与盾)</p>
       </td>
       <td align="center" valign="middle">
-        <img :src="$withBase('/img/qrcode/qqq.webp')" alt="群号: 694387113" class="no-zoom" style="width:120px;margin: 10px;">
-        <p>站长公众号</p>
+        <img :src="$withBase('/img/qrcode/qq.webp')" alt="群号: 694387113" class="no-zoom" style="width:150px;margin: 10px;">
+        <p>QQ交流群 (941013658)</p>
       </td>
     </tr>
   </tbody>
