@@ -134,15 +134,21 @@ Spider API 项目由 <a href="https://www.itbob.cn" target="_blank">BOB</a> 在�
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <img src="/img/qrcode/wechat.webp" class="no-zoom" style="width:150px;margin: 10px;">
+        <a href="/img/qrcode/wechat.webp" target="_blank">
+          <img src="/img/qrcode/wechat.webp" class="no-zoom" style="width:150px;margin: 10px;">
+        </a>
         <p>站长微信 (备注来意)</p>
       </td>
       <td align="center" valign="middle">
-        <img :src="$withBase('/img/qrcode/gzh.webp')" alt="群号: 694387113" class="no-zoom" style="width:150px;margin: 10px;">
+        <a href="/img/qrcode/gzh.webp" target="_blank">
+          <img :src="$withBase('/img/qrcode/gzh.webp')" alt="群号: 694387113" class="no-zoom" style="width:150px;margin: 10px;">
+        </a>
         <p>站长公众号 (爬虫矛与盾)</p>
       </td>
       <td align="center" valign="middle">
-        <img :src="$withBase('/img/qrcode/qq.webp')" alt="群号: 694387113" class="no-zoom" style="width:150px;margin: 10px;">
+        <a href="/img/qrcode/qq.webp" target="_blank">
+          <img :src="$withBase('/img/qrcode/qq.webp')" alt="群号: 694387113" class="no-zoom" style="width:150px;margin: 10px;">
+        </a>
         <p>QQ交流群 (941013658)</p>
       </td>
     </tr>

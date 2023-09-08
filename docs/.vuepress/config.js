@@ -38,6 +38,26 @@ module.exports = {
     console.log(makeMulti(string), "color: #0084ff");
     console.log("\\n %c © BOB'S BLOG %c itbob.cn %c © SpiderApi %c spiderapi.cn %c © vdoing %c doc.xugaoyi.com \\n", "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;", "color: #ffffff; background: #0084ff; padding:5px 0;", "background: #fadfa3; padding:5px 0;", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #fadfa3; padding:5px 0;");
     `],
+    ['script', {},
+    `
+    //网站运行时长
+    function ShowRunTime(id) {
+        var BootDate = new Date("2023/8/13 00:03:16");//设置网站运行时间，格式：年/月/日 时:分:秒
+        var NowDate = new Date();
+        var RunDateM = parseInt(NowDate - BootDate);
+        var RunDays = Math.floor(RunDateM / (24 * 3600 * 1000));
+        var RunHours = Math.floor(RunDateM % (24 * 3600 * 1000) / (3600 * 1000));
+        var RunMinutes = Math.floor(RunDateM % (24 * 3600 * 1000) % (3600 * 1000) / (60 * 1000));
+        var RunSeconds = Math.round(RunDateM % (24 * 3600 * 1000) % (3600 * 1000) % (60 * 1000) / 1000);
+        document.getElementById(id).innerHTML = "小破站已运行了 "
+            + "<font style='color:#FFA500;font-weight:bold'>" + RunDays + "</font>" + " 天 "
+            + "<font style='color:#1DBF97;font-weight:bold'>" + RunHours + "</font>" + " 小时 "
+            + "<font style='color:#8A2BE2;font-weight:bold'>" + RunMinutes + "</font>" + " 分 "
+            + "<font style='color:#007EC6;font-weight:bold'>" + RunSeconds + "</font>" + " 秒 ";
+    }
+    setInterval("ShowRunTime('sitetime')", 1000);
+    `
+    ]
   ],
 
   // 主题配置
@@ -129,29 +149,42 @@ module.exports = {
       name: 'BOB', // 必需
       href: 'https://github.com/TRHX' // 可选的
     },
-    social: { // 社交图标，显示于博主信息栏和页脚栏
-      // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
-      icons: [
-        {
-          iconClass: 'icon-youjian',
-          title: '联系站长',
-          link: 'mailto:admin@itbob.cn'
-        },
-        {
-          iconClass: 'icon-github',
-          title: 'GitHub',
-          link: 'https://github.com/TRHX'
-        },
-        {
-          iconClass: 'icon-blog',
-          title: '站长博客',
-          link: 'https://www.itbob.cn/'
-        }
-      ]
-    },
+    // social: { // 社交图标，显示于博主信息栏和页脚栏
+    //   // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
+    //   icons: [
+    //     {
+    //       iconClass: 'icon-youjian',
+    //       title: '联系站长',
+    //       link: 'mailto:admin@itbob.cn'
+    //     },
+    //     {
+    //       iconClass: 'icon-github',
+    //       title: 'GitHub',
+    //       link: 'https://github.com/TRHX'
+    //     },
+    //     {
+    //       iconClass: 'icon-blog',
+    //       title: '站长博客',
+    //       link: 'https://www.itbob.cn/'
+    //     }
+    //   ]
+    // },
     footer: { // 页脚信息
-      createYear: 2022, // 博客创建年份
-      copyrightInfo: 'spiderapi.cn', // 博客版权信息，支持a标签
+      createYear: 2023, // 博客创建年份
+      copyrightInfo: `
+      <a href="https://spiderapi.cn/" target="_blank">SpiderApi</a>
+      <br/>
+      <br/>
+      <span>
+        <a href="https://beian.miit.gov.cn/" target="_blank"><img src="/img/icp.png" alt="ICP" style="width:20px; height:auto; margin-bottom:-2px"> 鄂ICP备19003281号-9</a>丨
+        <a href="https://cloudbase.net/" target="_blank"><img src="/img/cloudbase.png" alt="云开发 CloudBase" style="width:22px; height:auto; margin-bottom:-2px"> 云开发 CloudBase</a>丨
+        <a href="https://v6.51.la/land/3FcHt9RWSQ8XvN5u" target="_blank"><img src="https://sdk.51.la/icon/1-1.png" alt="51la 网站统计" style="width:auto; height:12px; margin-bottom:-1px"></a>
+      </span>
+      <br/>
+      <br/>
+      <span id="sitetime">正在载入网站运行时间...</span>丨
+      <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3FpCxw5JhIELmjz2/quote.js?theme=#515C6B,#333333,#515C6B,#007BFF,#FFFFFF,#007BFF,12&f=14&display=0,0,0,1,0,1,0,1"></script>
+      `, // 博客版权信息，支持a标签
     },
     htmlModules,
   },
