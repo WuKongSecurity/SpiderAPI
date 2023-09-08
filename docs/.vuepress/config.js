@@ -183,7 +183,7 @@ module.exports = {
       <br/>
       <br/>
       <span id="sitetime">正在载入网站运行时间...</span>丨
-      <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3FpCxw5JhIELmjz2/quote.js?theme=#515C6B,#333333,#515C6B,#007BFF,#FFFFFF,#007BFF,12&f=14&display=0,0,0,1,0,1,0,1"></script>
+      <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3FpCxw5JhIELmjz2/quote.js?theme=#666666,#666666,#666666,#27A6FF,#FFFFFF,#1690FF,14&f=14&display=0,0,0,1,0,1,0,1"></script>
       `, // 博客版权信息，支持a标签
     },
     htmlModules,
