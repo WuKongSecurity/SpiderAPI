@@ -18,6 +18,7 @@ features: # 可选的
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
 ---
+
 <!-- <br/>
 <p align="center">
   <a href="https://www.npmjs.com/package/vuepress-theme-vdoing" target="_blank"><img src="https://img.shields.io/npm/v/vuepress-theme-vdoing" alt="npm" class="no-zoom"></a>
@@ -62,7 +63,7 @@ postList: none
 :::
 
 <p align="center">
-  <a class="become-sponsor" href="/pages/1b12ed/">支持赞助我们</a>
+  <a class="become-sponsor" href="/pages/sponsor/">支持赞助我们</a>
 </p>
 
 ::: danger ❗❗❗注意
@@ -128,7 +129,7 @@ Spider API 项目由 <a href="https://www.itbob.cn" target="_blank">BOB</a> 在�
 
 ## 💡 反馈交流
 
-对本站有任何问题和想法，请给我提 [Issue](https://github.com/xugaoyi/vuepress-theme-vdoing/issues)。技术交流、商务合作、广告赞助可以通过以下方式联系我们：
+对本站有任何问题和想法，请给我提 [Issue](https://github.com/TRHX/SpiderApi/issues)。技术交流、商务合作、广告赞助可以通过以下方式联系我们：
 
 <table>
   <tbody>

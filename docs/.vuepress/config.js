@@ -58,8 +58,6 @@ module.exports = {
     setInterval("ShowRunTime('sitetime')", 1000);
     `
     ],
-    ['script', { src: 'https://v6-widget.51.la/v6/3FpCxw5JhIELmjz2/quote.js?theme=#666666,#666666,#666666,#27A6FF,#FFFFFF,#1690FF,14&f=14&display=0,0,0,1,0,1,0,1', type: 'text/javascript', charset: 'UTF-8' }],
-
   ],
 
   // 主题配置
@@ -67,25 +65,6 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '目录', link: '/pages/toc/' },
-      // { text: '网络请求', link: '/pages/requests/',
-      //   items: [
-      //     { text: 'requests', link: '/pages/requests/' },
-      //     { text: 'urllib', link: '/pages/urllib/' },
-      //     { text: 'aiohttp', link: '/pages/aiohttp/' },
-      //     { text: 'httpx', link: '/pages/httpx/' },
-      //     {
-      //       text: '相关文章', items: [
-      //         { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
-      //         { text: '如何让你的笔记更有表现力', link: '/pages/dd027d/' },
-      //         { text: '批量操作front matter工具', link: '/pages/2b8e22/' },
-      //         { text: '部署', link: '/pages/0fc1d2/' },
-      //         { text: '关于写文章和H1标题', link: '/pages/9ae0bd/' },
-      //         { text: '关于博客搭建与管理', link: '/pages/26997d/' },
-      //         { text: '在线编辑和新增文章的方法', link: '/pages/c5a54d/' },
-      //       ]
-      //     }
-      //   ]
-      // },
       {
         text: '网络请求', link: '/pages/requests/', items: [
           { 
@@ -221,7 +200,7 @@ module.exports = {
           },
         ]
       },
-      { text: '赞助', link: '/pages/1b12ed/' },
+      { text: '赞助', link: '/pages/sponsor/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
@@ -282,23 +261,15 @@ module.exports = {
     footer: { // 页脚信息
       createYear: 2023, // 博客创建年份
       copyrightInfo: `
-      <a href="https://spiderapi.cn/" target="_blank">SpiderApi</a>
+      <a href="https://spiderapi.cn/" target="_blank">SpiderApi</a> All Rights Reserved.
       <br/>
       <br/>
       <span>
         <a href="https://beian.miit.gov.cn/" target="_blank"><img src="/img/icp.png" alt="ICP" style="width:20px; height:auto; margin-bottom:-2px"> 鄂ICP备19003281号-9</a>丨
-        <a href="https://cloudbase.net/" target="_blank"><img src="/img/cloudbase.png" alt="云开发 CloudBase" style="width:22px; height:auto; margin-bottom:-2px"> 云开发 CloudBase</a>丨
-        <a href="https://v6.51.la/land/3FcHt9RWSQ8XvN5u" target="_blank"><img src="https://sdk.51.la/icon/1-1.png" alt="51la 网站统计" style="width:auto; height:12px; margin-bottom:-1px"></a>
+        <a href="https://cloudbase.net/" target="_blank"><img src="/img/cloudbase.png" alt="云开发 CloudBase" style="width:22px; height:auto; margin-bottom:-2px"> CloudBase</a>丨
+        <a href="https://v6.51.la/land/3FcHt9RWSQ8XvN5u" target="_blank"><img src="https://sdk.51.la/icon/1-1.png" alt="51la 网站统计" style="width:auto; height:12px; margin-bottom:-1px"></a>丨
+        <span id="sitetime">正在载入网站运行时间...</span>
       </span>
-      <br/>
-      <br/>
-      <span id="sitetime">正在载入网站运行时间...</span>丨
-      <script>
-      document.addEventListener("DOMContentLoaded", function () {
-          console.log("xx");
-      });
-      </script>
-      <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3FpCxw5JhIELmjz2/quote.js?theme=#666666,#666666,#666666,#27A6FF,#FFFFFF,#1690FF,14&f=14&display=0,0,0,1,0,1,0,1"></script>
       `,
     },
     htmlModules,
