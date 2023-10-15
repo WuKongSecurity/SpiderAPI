@@ -39,26 +39,25 @@ postList: none
 
 ::: cardList 3
 ```yaml
-# - name: OpenHarmony
-#   desc: 开放原子开源基金会
-#   link: https://docs.openharmony.cn/pages/000000/
-#   bgColor: '#f1f1f1'
-#   textColor: '#2A3344'
-- name: Spider Box
-  desc: 🚀 SpiderBox - 虫盒 - 爬虫逆向资源导航站
-  link: https://spiderbox.cn/
-  bgColor: '#f1f1f1'
-  textColor: '#2A3344'
-- name: Spider Api
-  desc: 🚀 SpiderApi - 爬虫逆向常用 API
-  link: https://spiderapi.cn/
-  bgColor: '#F0DFB1'
-  textColor: '#2A3344'
-- name: Spider Law
-  desc: 🚀 SpiderLaw - 爬虫相关法律法规建设
-  # link: https://github.com/xugaoyi/vuepress-theme-vdoing
-  bgColor: '#DFEEE7'
-  textColor: '#2A3344'
+config:
+  target: _blank  # _self
+
+data:
+  - name: Spider Box
+    desc: 🚀 SpiderBox - 虫盒 - 爬虫逆向资源导航站
+    link: https://spiderbox.cn/
+    bgColor: '#f1f1f1'
+    textColor: '#2A3344'
+  - name: Spider Api
+    desc: 🚀 SpiderApi - 爬虫逆向常用 API
+    link: https://spiderapi.cn/
+    bgColor: '#F0DFB1'
+    textColor: '#2A3344'
+  - name: Spider Law (待定)
+    desc: 🚀 SpiderLaw - 数据采集相关法律法规建设
+    link: /
+    bgColor: '#DFEEE7'
+    textColor: '#2A3344'
 ```
 :::
 
@@ -83,23 +82,16 @@ Spider API 项目由 <a href="https://www.itbob.cn" target="_blank">BOB</a> 在�
   desc: 中科大数据研究院高级工程师
   avatar: /img/lx.jpg
   link: https://blog.csdn.net/weixin_43582101
-  bgColor: '#CBEAFA' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
-  textColor: '#6854A1' # 可选，默认var(--textColor)
-# - name: XAOXUU
-#   desc: '#IOS #Volantis主题作者'
-#   avatar: https://fastly.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
-#   link: https://xaoxuu.com
-#   bgColor: '#718971'
-#   textColor: '#fff'
-# - name: 平凡的你我
-#   desc: 理想成为大牛的小陈同学
-#   avatar: https://reinness.com/avatar.png
-#   link: https://reinness.com
-#   bgColor: '#FCDBA0'
-#   textColor: '#A05F2C'
+  bgColor: '#FCDBA0' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#A05F2C' # 可选，默认var(--textColor)
+- name: geekbyte
+  desc: 移动安全、tls/ja3指纹，公众号编角料
+  avatar: /img/geekbyte.jpg
+  link: https://blog.csdn.net/Y_morph
+  bgColor: '#CBEAFA'
+  textColor: '#6854A1'
 ```
 :::
-
 
 <br/>
 
@@ -111,7 +103,7 @@ Spider API 项目由 <a href="https://www.itbob.cn" target="_blank">BOB</a> 在�
 届时，VuePress 1.x 编译慢的缺点将得到极大的改善。我将会视情况把主题升级至 VuePress v2.0 或 VitePress。还希望大家多多 [:sparkling_heart:支持](/pages/1b12ed/) 哟，持续关注吧~
 ::: -->
 
-<br/>
+<!-- <br/> -->
 
 <!-- ## 💎 公众号
 `有趣研究社`是本人对各种有趣的、好玩的、沙雕的创意和想法以在线小网站或者文章的形式表达出来，比如：
@@ -136,25 +128,30 @@ Spider API 项目由 <a href="https://www.itbob.cn" target="_blank">BOB</a> 在�
     <tr>
       <td align="center" valign="middle">
         <a href="/img/qrcode/wechat.webp" target="_blank">
-          <img src="/img/qrcode/wechat.webp" class="no-zoom" style="width:150px;margin: 10px;">
+          <img src="/img/qrcode/wechat.webp" class="no-zoom" style="width:180px;margin: 10px;">
         </a>
         <p>站长微信 (备注来意)</p>
       </td>
       <td align="center" valign="middle">
         <a href="/img/qrcode/gzh.webp" target="_blank">
-          <img :src="$withBase('/img/qrcode/gzh.webp')" alt="群号: 694387113" class="no-zoom" style="width:150px;margin: 10px;">
+          <img :src="$withBase('/img/qrcode/gzh.webp')" alt="群号: 694387113" class="no-zoom" style="width:180px;margin: 10px;">
         </a>
         <p>站长公众号 (爬虫矛与盾)</p>
       </td>
       <td align="center" valign="middle">
         <a href="/img/qrcode/qq.webp" target="_blank">
-          <img :src="$withBase('/img/qrcode/qq.webp')" alt="群号: 694387113" class="no-zoom" style="width:150px;margin: 10px;">
+          <img :src="$withBase('/img/qrcode/qq.webp')" alt="群号: 694387113" class="no-zoom" style="width:180px;margin: 10px;">
         </a>
-        <p>QQ交流群 (941013658)</p>
+        <p>QQ 交流群 (941013658)</p>
       </td>
     </tr>
   </tbody>
 </table>
+
+<!-- | <img :src="$withBase('/img/qrcode/wechat.webp')" alt="赞赏码" width=180> | <img :src="$withBase('/img/qrcode/gzh.webp')" alt="Wechat QRcode" width=180>| <img :src="$withBase('/img/qrcode/qq.webp')" alt="Alipay QRcode" width=180> |
+| :---: | :---: | :---: |
+| 站长微信 (备注来意) | 站长公众号 (爬虫矛与盾) | QQ交流群 (941013658) | -->
+
 
 
 <!-- AD -->

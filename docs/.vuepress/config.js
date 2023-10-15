@@ -140,7 +140,7 @@ module.exports = {
         ]
       },
       {
-        text: '框架接口', link: '/pages/re/', items: [
+        text: '框架接口', link: '/pages/selenium/', items: [
           { 
             text: '自动化框架', items: [
               { text: 'selenium', link: '/pages/selenium/' },
@@ -169,7 +169,7 @@ module.exports = {
         ]
       },
       {
-        text: '脚本命令', link: '/pages/re/', items: [
+        text: '脚本命令', link: '/pages/js-hook/', items: [
           { 
             text: '辅助脚本', items: [
               { text: 'JS Hook', link: '/pages/js-hook/' },
@@ -200,6 +200,7 @@ module.exports = {
           },
         ]
       },
+      { text: '报错处理', link: '/pages/error-handling/' },
       { text: '赞助', link: '/pages/sponsor/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
@@ -346,7 +347,7 @@ module.exports = {
   ],
 
   markdown: {
-    // lineNumbers: true,
+    lineNumbers: true,
     extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
   },
 
