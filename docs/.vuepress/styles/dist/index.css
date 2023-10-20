@@ -1,0 +1,88 @@
+.gt-container .gt-ico-tip::after {
+  content: '。( Win + . ) or ( ⌃ + ⌘ + ␣ ) open Emoji';
+  color: #999;
+}
+.gt-container .gt-meta {
+  border-color: var(--borderColor) !important;
+}
+.gt-container .gt-comments-null {
+  color: var(--textColor);
+  opacity: 0.5;
+}
+.gt-container .gt-header-textarea {
+  color: var(--textColor);
+  background: rgba(180,180,180,0.1) !important;
+}
+.gt-container .gt-btn {
+  border-color: $accentColor !important;
+  background-color: $accentColor !important;
+}
+.gt-container .gt-btn-preview {
+  background-color: rgba(255,255,255,0) !important;
+  color: $accentColor !important;
+}
+.gt-container a {
+  color: $accentColor !important;
+}
+.gt-container .gt-svg svg {
+  fill: $accentColor !important;
+}
+.gt-container .gt-comment-content,
+.gt-container .gt-comment-admin .gt-comment-content {
+  background-color: rgba(150,150,150,0.1) !important;
+}
+.gt-container .gt-comment-content:hover,
+.gt-container .gt-comment-admin .gt-comment-content:hover {
+  box-shadow: 0 0 25px rgba(150,150,150,0.5) !important;
+}
+.gt-container .gt-comment-content .gt-comment-body,
+.gt-container .gt-comment-admin .gt-comment-content .gt-comment-body {
+  color: var(--textColor) !important;
+}
+.qq {
+  position: relative;
+}
+.qq::after {
+  content: "可撩";
+  background: $accentColor;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 10px;
+  font-size: 12px;
+  position: absolute;
+  top: -4px;
+  right: -35px;
+  transform: scale(0.85);
+}
+body .vuepress-plugin-demo-block__wrapper,
+body .vuepress-plugin-demo-block__wrapper .vuepress-plugin-demo-block__display {
+  border-color: rgba(160,160,160,0.3);
+}
+body .vuepress-plugin-demo-block__wrapper .vuepress-plugin-demo-block__footer:hover .vuepress-plugin-demo-block__expand::before {
+  border-top-color: $accentColor !important;
+  border-bottom-color: $accentColor !important;
+}
+body .vuepress-plugin-demo-block__wrapper .vuepress-plugin-demo-block__footer:hover svg {
+  fill: $accentColor !important;
+}
+.suggestions {
+  overflow: auto;
+  max-height: calc(100vh - 6rem);
+}
+@media (max-width: 719px) {
+  .suggestions {
+    width: 90vw;
+    min-width: 90vw !important;
+    margin-right: -20px;
+  }
+}
+.suggestions .highlight {
+  color: $accentColor;
+  font-weight: bold;
+}
+iframe {
+  width: 100%;
+  display: block;
+  border: none;
+}
+@import url("https://at.alicdn.com/t/c/font_4238936_a2f3sg5mske.css");

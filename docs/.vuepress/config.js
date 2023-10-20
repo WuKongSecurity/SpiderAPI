@@ -200,10 +200,39 @@ module.exports = {
           },
         ]
       },
+      { 
+        text: '验证码', link: '/pages/captcha/', items: [
+          // { text: '目录', link: '/pages/captcha/'},
+          { text: '国内验证码', items: [
+            { text: 'GeeTest', link: '/pages/geetest-v3/', items: [
+              { text: '行为验证 3.0', link: '/pages/geetest-v3/' },
+              { text: '行为验证 4.0', link: '/pages/geetest-v4/' }
+            ]},
+            { text: '易盾', link: '/pages/yidun/' },
+            { text: '顶象', link: '/pages/dingxiang/' },
+            { text: 'V5 验证', link: '/pages/verify5/' },
+            { text: '数美', link: '/pages/shumei/' },
+            { text: '凯格', link: '/pages/kgcaptcha/' },
+            { text: '阿里云', link: '/pages/aliyun/' },
+            { text: '小盾', link: '/pages/xiaodun/' },
+            { text: '云片', link: '/pages/yunpian/' },
+          ]},
+          { text: '国外验证码', items: [
+            { text: 'Cloudflare', link: '/pages/cloudflare/' },
+            { text: 'AWS WAF Captcha', link: '/pages/aws/' },
+            { text: 'hCaptcha', link: '/pages/hcaptcha-easy/', items: [
+              { text: 'hCaptcha (Easy Difficulty)', link: '/pages/hcaptcha-easy/' },
+              { text: 'hCaptcha (Moderate Difficulty)', link: '/pages/hcaptcha-moderate/' },
+              { text: 'hCaptcha (Hard Difficulty)', link: '/pages/hcaptcha-hard/' },
+              { text: 'hCaptcha Enterprise', link: '/pages/hcaptcha-enterprise/' },
+            ]}
+          ]}
+        ]
+      },
       { text: '报错处理', link: '/pages/error-handling/' },
       { text: '赞助', link: '/pages/sponsor/' },
     ],
-    sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+    sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
     repo: 'TRHX/SpiderApi', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
