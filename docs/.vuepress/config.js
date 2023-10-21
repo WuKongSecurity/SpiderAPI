@@ -201,31 +201,50 @@ module.exports = {
         ]
       },
       { 
-        text: '验证码', link: '/pages/captcha/', items: [
-          // { text: '目录', link: '/pages/captcha/'},
+        text: '验证码', link: '/captcha-demo/', items: [
+          // { text: '目录总览', link: '/pages/captcha/'},
           { text: '国内验证码', items: [
-            { text: 'GeeTest', link: '/pages/geetest-v3/', items: [
-              { text: '行为验证 3.0', link: '/pages/geetest-v3/' },
-              { text: '行为验证 4.0', link: '/pages/geetest-v4/' }
+            { text: '易盾 NETEASE YIDUN', link: '/captcha-demo/yidun/' },
+            { text: '顶象 DING XIANG', link: '/captcha-demo/dingxiang/' },
+            { text: '数美 NEXTDATA', link: '/captcha-demo/shumei/' },
+            { text: '小盾 XIAODUN', link: '/captcha-demo/xiaodun/' },
+            { text: '云片 YUNPIAN', link: '/captcha-demo/yunpian/' },
+            { text: '极验 GEETEST', link: '/captcha-demo/geetest-v3/', items: [
+              { text: '行为验证 3.0', link: '/captcha-demo/geetest-v3/' },
+              { text: '行为验证 4.0', link: '/captcha-demo/geetest-v4/' }
             ]},
-            { text: '易盾', link: '/pages/yidun/' },
-            { text: '顶象', link: '/pages/dingxiang/' },
-            { text: 'V5 验证', link: '/pages/verify5/' },
-            { text: '数美', link: '/pages/shumei/' },
-            { text: '凯格', link: '/pages/kgcaptcha/' },
-            { text: '阿里云', link: '/pages/aliyun/' },
-            { text: '小盾', link: '/pages/xiaodun/' },
-            { text: '云片', link: '/pages/yunpian/' },
+            { text: '阿里云 Captcha', link: '/captcha-demo/aliyun/' },
+            { text: '腾讯天御 T-Sec', link: '/captcha-demo/tencent/' },
+            { text: '螺丝帽 Luosimao', link: '/captcha-demo/luosimao/' },
+            { text: '小红书 XiaoHongShu', link: '/captcha-demo/xiaohongshu/' },
+            { text: 'Vaptcha', link: '/captcha-demo/vaptcha/' },
+            { text: 'V5 验证', link: '/captcha-demo/verify5/' },
+            { text: '凯格 KYGER', link: '/captcha-demo/kgcaptcha/' },
+            { text: '友验 FastYotest', link: '/captcha-demo/fastyotest/' },
           ]},
           { text: '国外验证码', items: [
-            { text: 'Cloudflare', link: '/pages/cloudflare/' },
-            { text: 'AWS WAF Captcha', link: '/pages/aws/' },
-            { text: 'hCaptcha', link: '/pages/hcaptcha-easy/', items: [
-              { text: 'hCaptcha (Easy Difficulty)', link: '/pages/hcaptcha-easy/' },
-              { text: 'hCaptcha (Moderate Difficulty)', link: '/pages/hcaptcha-moderate/' },
-              { text: 'hCaptcha (Hard Difficulty)', link: '/pages/hcaptcha-hard/' },
-              { text: 'hCaptcha Enterprise', link: '/pages/hcaptcha-enterprise/' },
-            ]}
+            { text: 'Cloudflare Turnstile', link: '/captcha-demo/cloudflare-managed/', items: [
+              { text: 'Cloudflare Managed Challenge', link: '/captcha-demo/cloudflare-managed/' },
+              { text: 'Cloudflare Non-Interactive Challenge', link: '/captcha-demo/cloudflare-non-interactive/' },
+              { text: 'Cloudflare Invisible Challenge', link: '/captcha-demo/cloudflare-invisible/' },
+            ]},
+            { text: 'Google reCAPTCHA', link: '/captcha-demo/recaptcha-v2-easy/', items: [
+              { text: 'reCAPTCHA v2 (Easy Difficulty)', link: '/captcha-demo/recaptcha-v2-easy/' },
+              { text: 'reCAPTCHA v2 (Moderate Difficulty)', link: '/captcha-demo/recaptcha-v2-moderate/' },
+              { text: 'reCAPTCHA v2 (Hard Difficulty)', link: '/captcha-demo/recaptcha-v2-hard/' },
+              { text: 'reCAPTCHA v3 (Invisible)', link: '/captcha-demo/recaptcha-v3-invisible/' },
+            ]},
+            { text: 'Arkose FunCAPTCHA', link: '/captcha-demo/funcaptcha/' },
+            { text: 'DataDome CAPTCHA', link: '/captcha-demo/datadome/' },
+            { text: 'PerimeterX', link: '/captcha-demo/perimeterx/' },
+            { text: 'AWS WAF Captcha', link: '/captcha-demo/aws/' },
+            { text: 'MTCaptcha', link: '/captcha-demo/mtcaptcha/' },
+            { text: 'Lemin CAPTCHA', link: '/captcha-demo/lemin/' },
+            { text: 'Yandex SmartCaptcha', link: '/captcha-demo/yandex/' },
+            { text: 'mCaptcha', link: '/captcha-demo/mcaptcha/' },
+            { text: 'KeyCAPTCHA', link: '/captcha-demo/keycaptcha/' },
+            { text: 'Capy Puzzle CAPTCHA', link: '/captcha-demo/capy-puzzle/' },
+            { text: 'CyberSiARA', link: '/captcha-demo/cybersiara/' },
           ]}
         ]
       },
