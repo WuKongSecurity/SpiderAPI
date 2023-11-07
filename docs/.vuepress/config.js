@@ -209,14 +209,16 @@ module.exports = {
             { text: '数美 NEXTDATA', link: '/captcha-demo/shumei/' },
             { text: '小盾 XIAODUN', link: '/captcha-demo/xiaodun/' },
             { text: '云片 YUNPIAN', link: '/captcha-demo/yunpian/' },
-            { text: '极验 GEETEST', link: '/captcha-demo/geetest-v3/', items: [
+            { text: '极验 GEETEST', link: '/captcha-demo/geetest-v2/', items: [
+              { text: '行为验证 2.0', link: '/captcha-demo/geetest-v2/' },
               { text: '行为验证 3.0', link: '/captcha-demo/geetest-v3/' },
               { text: '行为验证 4.0', link: '/captcha-demo/geetest-v4/' }
             ]},
             { text: '阿里云 Captcha', link: '/captcha-demo/aliyun/' },
             { text: '腾讯天御 T-Sec', link: '/captcha-demo/tencent/' },
+            { text: '三六零天御', link: '/captcha-demo/360/' },
+            { text: '小红书 redCaptcha', link: '/captcha-demo/redcaptcha/' },
             { text: '螺丝帽 Luosimao', link: '/captcha-demo/luosimao/' },
-            { text: '小红书 XiaoHongShu', link: '/captcha-demo/xiaohongshu/' },
             { text: 'Vaptcha', link: '/captcha-demo/vaptcha/' },
             { text: 'V5 验证', link: '/captcha-demo/verify5/' },
             { text: '凯格 KYGER', link: '/captcha-demo/kgcaptcha/' },

@@ -85,4 +85,11 @@ iframe {
   display: block;
   border: none;
 }
+.sidebar {
+  width: 19rem !important;
+}
 @import url("https://at.alicdn.com/t/c/font_4238936_a2f3sg5mske.css");
+@font-face {
+  font-family: "360shouhu Type";
+  src: url("//s0.ssl.qhimg.com/static/8b5e7194efb54e56.ttf") format("truetype");
+}

@@ -92,15 +92,37 @@ body .vuepress-plugin-demo-block__wrapper
     color: $accentColor
     font-weight: bold
 
-iframe {
-    width: 100%;
-    display: block;
-    border: none;
-}
+iframe
+  width: 100%;
+  display: block;
+  border: none;
+
 
 // 侧边栏宽度
-.sidebar {
+.sidebar
   width: 19rem !important;
+
+
+@import "https://at.alicdn.com/t/c/font_4238936_a2f3sg5mske.css"
+
+@font-face {
+    font-family: "360shouhu";
+    src: url("//cdn.itbob.cn/font/360shouhu.ttf") format("truetype")
 }
 
-@import url(https://at.alicdn.com/t/c/font_4238936_a2f3sg5mske.css);
+@font-face {
+  font-family: "OxaniumRegular";
+  src: url("//cdn.itbob.cn/font/OxaniumRegular.ttf");
+}
+
+h1
+  font-family: "360shouhu" !important
+
+h2
+  font-family: "360shouhu" !important
+
+.navbar .site-name
+  font-family: "360shouhu" !important
+
+.home-wrapper .banner .banner-conent .feature a h2
+  font-size: 1.8rem !important
