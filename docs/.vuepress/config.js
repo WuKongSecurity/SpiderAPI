@@ -225,16 +225,25 @@ module.exports = {
             { text: '友验 FastYotest', link: '/captcha-demo/fastyotest/' },
           ]},
           { text: '国外验证码', items: [
-            { text: 'Cloudflare Turnstile', link: '/captcha-demo/cloudflare-managed/', items: [
-              { text: 'Cloudflare Managed Challenge', link: '/captcha-demo/cloudflare-managed/' },
-              { text: 'Cloudflare Non-Interactive Challenge', link: '/captcha-demo/cloudflare-non-interactive/' },
-              { text: 'Cloudflare Invisible Challenge', link: '/captcha-demo/cloudflare-invisible/' },
+            { text: 'Cloudflare Turnstile', link: '/captcha-demo/turnstile-managed/', items: [
+              { text: 'Turnstile Managed Challenge', link: '/captcha-demo/turnstile-managed/' },
+              { text: 'Turnstile Non-Interactive Challenge', link: '/captcha-demo/turnstile-non-interactive/' },
+              { text: 'Turnstile Invisible Challenge', link: '/captcha-demo/turnstile-invisible/' },
             ]},
-            { text: 'Google reCAPTCHA', link: '/captcha-demo/recaptcha-v2-easy/', items: [
-              { text: 'reCAPTCHA v2 (Easy Difficulty)', link: '/captcha-demo/recaptcha-v2-easy/' },
-              { text: 'reCAPTCHA v2 (Moderate Difficulty)', link: '/captcha-demo/recaptcha-v2-moderate/' },
-              { text: 'reCAPTCHA v2 (Hard Difficulty)', link: '/captcha-demo/recaptcha-v2-hard/' },
-              { text: 'reCAPTCHA v3 (Invisible)', link: '/captcha-demo/recaptcha-v3-invisible/' },
+            { text: 'Google reCAPTCHA', link: '/captcha-demo/recaptcha-v2-checkbox/', items: [
+              { text: 'reCAPTCHA V2 Checkbox', link: '/captcha-demo/recaptcha-v2-checkbox/' },
+              { text: 'reCAPTCHA v2 Invisible', link: '/captcha-demo/recaptcha-v2-invisible/' },
+              { text: 'reCAPTCHA v2 Enterprise', link: '/captcha-demo/recaptcha-v2-enterprise/' },
+              { text: 'reCAPTCHA v3', link: '/captcha-demo/recaptcha-v3/' },
+              { text: 'reCAPTCHA v3 Enterprise', link: '/captcha-demo/recaptcha-v3-enterprise/' },
+            ]},
+            { text: 'hCaptcha', link: '/captcha-demo/hcaptcha-easy/', items: [
+              { text: 'hCaptcha Easy', link: '/captcha-demo/hcaptcha-easy/' },
+              { text: 'hCaptcha Medium', link: '/captcha-demo/hcaptcha-medium/' },
+              { text: 'hCaptcha Difficult', link: '/captcha-demo/hcaptcha-difficult/' },
+              { text: 'hCaptcha Invisible', link: '/captcha-demo/hcaptcha-invisible/' },
+              { text: 'hCaptcha Pro', link: '/captcha-demo/hcaptcha-pro/' },
+              { text: 'hCaptcha Enterprise', link: '/captcha-demo/hcaptcha-enterprise/' },
             ]},
             { text: 'Arkose FunCAPTCHA', link: '/captcha-demo/funcaptcha/' },
             { text: 'DataDome CAPTCHA', link: '/captcha-demo/datadome/' },
