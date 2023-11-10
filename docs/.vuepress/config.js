@@ -169,7 +169,7 @@ module.exports = {
         ]
       },
       {
-        text: '脚本命令', link: '/pages/js-hook/', items: [
+        text: '辅助查询', link: '/pages/js-hook/', items: [
           { 
             text: '辅助脚本', items: [
               { text: 'JS Hook', link: '/pages/js-hook/' },
@@ -198,6 +198,12 @@ module.exports = {
               { text: 'RSA', link: '/pages/rsa/' },
             ]
           },
+          {
+            text: '指纹信息', items: [
+              { text: 'CreepJS', link: '/pages/creepjs/' },
+              { text: 'Fingerprint2', link: '/pages/fingerprint2/' },
+            ]
+          }
         ]
       },
       { 
