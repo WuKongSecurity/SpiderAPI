@@ -12,8 +12,8 @@ features: # 可选的
     details: 各种语言、各种框架、各种库的 GET、POST、添加代理、修改 TLS 指纹等
   - title: 数据处理
     details: 数据解析提取、清洗去重、自然语言处理、分词统计、绘图制表、各种数据库存储等
-  - title: 脚本命令
-    details: JS Hook、Frida Api、ADB 命令、ARM 指令集、Dalvik 指令集、Linux 命令等
+  - title: 辅助查询
+    details: JS Hook、Frida Api、ADB 命令、ARM 指令集、Linux 命令、浏览器指纹等
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none

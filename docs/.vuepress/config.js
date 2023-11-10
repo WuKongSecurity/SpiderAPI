@@ -186,6 +186,12 @@ module.exports = {
             ]
           },
           {
+            text: '指纹信息', items: [
+              { text: 'CreepJS', link: '/pages/creepjs/' },
+              { text: 'Fingerprint2', link: '/pages/fingerprint2/' },
+            ]
+          },
+          {
             text: '加密算法', items: [
               { text: 'MD5', link: '/pages/md5/' },
               { text: 'Base64', link: '/pages/base64/' },
@@ -198,12 +204,6 @@ module.exports = {
               { text: 'RSA', link: '/pages/rsa/' },
             ]
           },
-          {
-            text: '指纹信息', items: [
-              { text: 'CreepJS', link: '/pages/creepjs/' },
-              { text: 'Fingerprint2', link: '/pages/fingerprint2/' },
-            ]
-          }
         ]
       },
       { 
