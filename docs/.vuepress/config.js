@@ -251,7 +251,7 @@ module.exports = {
               { text: 'hCaptcha Pro', link: '/captcha-demo/hcaptcha-pro/' },
               { text: 'hCaptcha Enterprise', link: '/captcha-demo/hcaptcha-enterprise/' },
             ]},
-            { text: 'Arkose FunCAPTCHA', link: '/captcha-demo/funcaptcha/' },
+            { text: 'Arkose Labs FunCAPTCHA', link: '/captcha-demo/funcaptcha/' },
             { text: 'DataDome CAPTCHA', link: '/captcha-demo/datadome/' },
             { text: 'PerimeterX', link: '/captcha-demo/perimeterx/' },
             { text: 'AWS WAF Captcha', link: '/captcha-demo/aws/' },
