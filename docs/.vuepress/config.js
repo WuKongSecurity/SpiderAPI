@@ -16,6 +16,7 @@ module.exports = {
 
     // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
     // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
+    ['script', { src: 'https://lib.baomitu.com/jquery/1.9.1/jquery.min.js', type: 'text/javascript' }],
     ['script', { src: '//sdk.51.la/js-sdk-pro.min.js', type: 'text/javascript', id: 'LA_COLLECT', charset: 'UTF-8' }],
     ['script', {}, `LA.init({id:"3FpCxw5JhIELmjz2",ck:"3FpCxw5JhIELmjz2"})`],
     ['script', {},
