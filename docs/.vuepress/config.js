@@ -19,6 +19,22 @@ module.exports = {
     // ['script', { src: 'https://lib.baomitu.com/jquery/1.9.1/jquery.min.js', type: 'text/javascript' }],
     ['script', { src: '//sdk.51.la/js-sdk-pro.min.js', type: 'text/javascript', id: 'LA_COLLECT', charset: 'UTF-8' }],
     ['script', {}, `LA.init({id:"3FpCxw5JhIELmjz2",ck:"3FpCxw5JhIELmjz2"})`],
+    ['script', {}, `
+    var currentUrl = window.location.href;
+    if (currentUrl.includes('geetest-v2')) {
+        var linkArray = [
+            { rel: 'prefetch', as: 'script', href: 'https://static.geetest.com/static/js/geetest.0.0.0.js' },
+            { rel: 'prefetch', as: 'script', href: 'https://lib.baomitu.com/jquery/1.9.1/jquery.min.js' },
+            { rel: 'prefetch', as: 'script', href: 'https://static.geetest.com/static/tools/gt.js' },
+            { rel: 'prefetch', as: 'script', href: 'https://static.geetest.com/static/js/offline.6.0.0.js' },
+        ];
+        linkArray.forEach(function(linkInfo) {
+            var linkElement = document.createElement('link');
+            Object.assign(linkElement, linkInfo);
+            document.head.appendChild(linkElement);
+        });
+    }
+    `],
     ['script', {},
     `
     function makeMulti(string) {
