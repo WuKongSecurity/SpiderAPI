@@ -10,10 +10,14 @@ bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | no
 features: # 可选的
   - title: 网络请求
     details: 各种语言、各种框架、各种库的 GET、POST、添加代理、修改 TLS 指纹等
+    link: /pages/requests/
+    # imgUrl: https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200122153807.jpg
   - title: 数据处理
     details: 数据解析提取、清洗去重、自然语言处理、分词统计、绘图制表、各种数据库存储等
+    link: /pages/re/
   - title: 辅助查询
     details: JS Hook、Frida Api、ADB 命令、ARM 指令集、Linux 命令、浏览器指纹等
+    link: /pages/js-hook/
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
@@ -66,11 +70,8 @@ data:
 </p>
 
 ::: danger ❗❗❗注意
-Spider API 项目由 <a href="https://www.itbob.cn" target="_blank">BOB</a> 在业余时间建立和完善，现仍处于初期建设当中，若您在爬虫工作当中（包括但不限于JS/APP/小程序逆向、数据分析处理等）有常用的、通用的代码、脚本，可以联系站长收录到本站。
-<br/><br/>
-作者主要专注于 WEB 端的爬虫和 JS 逆向，对于其他平台的爬虫和逆向不是很熟练，且时间有限，提供的代码样例可能有疏忽和测试不完善的地方，若发现有错误之处，欢迎交流指正。
+Spider API 项目由 <a href="https://www.itbob.cn" target="_blank">BOB</a> 在业余时间建立和完善，现仍处于初期建设当中，若您在爬虫工作当中（包括但不限于JS/APP/小程序逆向、数据分析处理等）有常用的、通用的代码、脚本，可以联系站长收录到本站；若发现文档中有错误之处，欢迎交流指正。
 :::
-
 
 <br/>
 

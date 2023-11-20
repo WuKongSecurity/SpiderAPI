@@ -16,7 +16,7 @@ module.exports = {
 
     // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
     // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
-    ['script', { src: 'https://lib.baomitu.com/jquery/1.9.1/jquery.min.js', type: 'text/javascript' }],
+    // ['script', { src: 'https://lib.baomitu.com/jquery/1.9.1/jquery.min.js', type: 'text/javascript' }],
     ['script', { src: '//sdk.51.la/js-sdk-pro.min.js', type: 'text/javascript', id: 'LA_COLLECT', charset: 'UTF-8' }],
     ['script', {}, `LA.init({id:"3FpCxw5JhIELmjz2",ck:"3FpCxw5JhIELmjz2"})`],
     ['script', {},
@@ -208,61 +208,60 @@ module.exports = {
         ]
       },
       { 
-        text: '验证码', link: '/captcha-demo/', items: [
+        text: '验证码', link: '/captcha/', items: [
           // { text: '目录总览', link: '/pages/captcha/'},
           { text: '国内验证码', items: [
-            { text: '易盾 NETEASE YIDUN', link: '/captcha-demo/yidun/' },
-            { text: '顶象 DING XIANG', link: '/captcha-demo/dingxiang/' },
-            { text: '数美 NEXTDATA', link: '/captcha-demo/shumei/' },
-            { text: '小盾 XIAODUN', link: '/captcha-demo/xiaodun/' },
-            { text: '云片 YUNPIAN', link: '/captcha-demo/yunpian/' },
-            { text: '极验 GEETEST', link: '/captcha-demo/geetest-v2/', items: [
-              { text: '行为验证 2.0', link: '/captcha-demo/geetest-v2/' },
-              { text: '行为验证 3.0', link: '/captcha-demo/geetest-v3/' },
-              { text: '行为验证 4.0', link: '/captcha-demo/geetest-v4/' }
+            { text: '顶象 DING XIANG', link: '/captcha/dingxiang/' },
+            { text: '数美 NEXTDATA', link: '/captcha/shumei/' },
+            { text: '易盾 NETEASE YIDUN', link: '/captcha/yidun/' },
+            { text: '极验 GEETEST', link: '/captcha/geetest-v2/', items: [
+              { text: '行为验证 2.0', link: '/captcha/geetest-v2/' },
+              { text: '行为验证 3.0', link: '/captcha/geetest-v3/' },
+              { text: '行为验证 4.0', link: '/captcha/geetest-v4/' }
             ]},
-            { text: '阿里云 Captcha', link: '/captcha-demo/aliyun/' },
-            { text: '腾讯天御 T-Sec', link: '/captcha-demo/tencent/' },
-            { text: '三六零天御', link: '/captcha-demo/360/' },
-            { text: '小红书 redCaptcha', link: '/captcha-demo/redcaptcha/' },
-            { text: '螺丝帽 Luosimao', link: '/captcha-demo/luosimao/' },
-            { text: 'Vaptcha', link: '/captcha-demo/vaptcha/' },
-            { text: 'V5 验证', link: '/captcha-demo/verify5/' },
-            { text: '凯格 KYGER', link: '/captcha-demo/kgcaptcha/' },
-            { text: '友验 FastYotest', link: '/captcha-demo/fastyotest/' },
+            { text: '阿里云 Captcha', link: '/captcha/aliyun/' },
+            { text: '腾讯天御 T-Sec', link: '/captcha/tencent/' },
+            { text: '小红书 redCaptcha', link: '/captcha/redcaptcha/' },
+            { text: '小盾 XIAODUN', link: '/captcha/xiaodun/' },
+            { text: '云片 YUNPIAN', link: '/captcha/yunpian/' },
+            { text: '三六零天御', link: '/captcha/360/' },
+            { text: '螺丝帽 Luosimao', link: '/captcha/luosimao/' },
+            { text: 'Vaptcha', link: '/captcha/vaptcha/' },
+            { text: 'V5 验证', link: '/captcha/verify5/' },
+            { text: '凯格 KYGER', link: '/captcha/kgcaptcha/' },
+            { text: '友验 FastYotest', link: '/captcha/fastyotest/' },
           ]},
           { text: '国外验证码', items: [
-            { text: 'Cloudflare Turnstile', link: '/captcha-demo/turnstile-managed/', items: [
-              { text: 'Turnstile Managed Challenge', link: '/captcha-demo/turnstile-managed/' },
-              { text: 'Turnstile Non-Interactive Challenge', link: '/captcha-demo/turnstile-non-interactive/' },
-              { text: 'Turnstile Invisible Challenge', link: '/captcha-demo/turnstile-invisible/' },
+            { text: 'Cloudflare Turnstile', link: '/captcha/turnstile-managed/', items: [
+              { text: 'Turnstile Managed Challenge', link: '/captcha/turnstile-managed/' },
+              { text: 'Turnstile Non-Interactive Challenge', link: '/captcha/turnstile-non-interactive/' },
+              { text: 'Turnstile Invisible Challenge', link: '/captcha/turnstile-invisible/' },
             ]},
-            { text: 'Google reCAPTCHA', link: '/captcha-demo/recaptcha-v2-checkbox/', items: [
-              { text: 'reCAPTCHA V2 Checkbox', link: '/captcha-demo/recaptcha-v2-checkbox/' },
-              { text: 'reCAPTCHA v2 Invisible', link: '/captcha-demo/recaptcha-v2-invisible/' },
-              { text: 'reCAPTCHA v2 Enterprise', link: '/captcha-demo/recaptcha-v2-enterprise/' },
-              { text: 'reCAPTCHA v3', link: '/captcha-demo/recaptcha-v3/' },
-              { text: 'reCAPTCHA v3 Enterprise', link: '/captcha-demo/recaptcha-v3-enterprise/' },
+            { text: 'Google reCAPTCHA', link: '/captcha/recaptcha-v2-checkbox/', items: [
+              { text: 'reCAPTCHA V2 Checkbox', link: '/captcha/recaptcha-v2-checkbox/' },
+              { text: 'reCAPTCHA v2 Invisible', link: '/captcha/recaptcha-v2-invisible/' },
+              { text: 'reCAPTCHA v2 Enterprise', link: '/captcha/recaptcha-v2-enterprise/' },
+              { text: 'reCAPTCHA v3', link: '/captcha/recaptcha-v3/' },
+              { text: 'reCAPTCHA v3 Enterprise', link: '/captcha/recaptcha-v3-enterprise/' },
             ]},
-            { text: 'hCaptcha', link: '/captcha-demo/hcaptcha-easy/', items: [
-              { text: 'hCaptcha Easy', link: '/captcha-demo/hcaptcha-easy/' },
-              { text: 'hCaptcha Medium', link: '/captcha-demo/hcaptcha-medium/' },
-              { text: 'hCaptcha Difficult', link: '/captcha-demo/hcaptcha-difficult/' },
-              { text: 'hCaptcha Invisible', link: '/captcha-demo/hcaptcha-invisible/' },
-              { text: 'hCaptcha Pro', link: '/captcha-demo/hcaptcha-pro/' },
-              { text: 'hCaptcha Enterprise', link: '/captcha-demo/hcaptcha-enterprise/' },
+            { text: 'hCaptcha', link: '/captcha/hcaptcha-easy/', items: [
+              { text: 'hCaptcha Easy', link: '/captcha/hcaptcha-easy/' },
+              { text: 'hCaptcha Medium', link: '/captcha/hcaptcha-medium/' },
+              { text: 'hCaptcha Difficult', link: '/captcha/hcaptcha-difficult/' },
+              { text: 'hCaptcha Invisible', link: '/captcha/hcaptcha-invisible/' },
+              { text: 'hCaptcha Pro', link: '/captcha/hcaptcha-pro/' },
+              { text: 'hCaptcha Enterprise', link: '/captcha/hcaptcha-enterprise/' },
             ]},
-            { text: 'Arkose Labs FunCAPTCHA', link: '/captcha-demo/funcaptcha/' },
-            { text: 'DataDome CAPTCHA', link: '/captcha-demo/datadome/' },
-            { text: 'PerimeterX', link: '/captcha-demo/perimeterx/' },
-            { text: 'AWS WAF Captcha', link: '/captcha-demo/aws/' },
-            { text: 'MTCaptcha', link: '/captcha-demo/mtcaptcha/' },
-            { text: 'Lemin CAPTCHA', link: '/captcha-demo/lemin/' },
-            { text: 'Yandex SmartCaptcha', link: '/captcha-demo/yandex/' },
-            { text: 'mCaptcha', link: '/captcha-demo/mcaptcha/' },
-            { text: 'KeyCAPTCHA', link: '/captcha-demo/keycaptcha/' },
-            { text: 'Capy Puzzle CAPTCHA', link: '/captcha-demo/capy-puzzle/' },
-            { text: 'CyberSiARA', link: '/captcha-demo/cybersiara/' },
+            { text: 'Arkose Labs FunCAPTCHA', link: '/captcha/funcaptcha/' },
+            { text: 'DataDome CAPTCHA', link: '/captcha/datadome/' },
+            { text: 'PerimeterX丨HUMAN Challenge', link: '/captcha/perimeterx/' },
+            { text: 'AWS (Amazon) WAF Captcha', link: '/captcha/aws/' },
+            { text: 'MTCaptcha', link: '/captcha/mtcaptcha/' },
+            { text: 'Lemin CAPTCHA丨Capy Puzzle', link: '/captcha/lemin/' },
+            { text: 'Yandex SmartCaptcha', link: '/captcha/yandex/' },
+            { text: 'mCaptcha', link: '/captcha/mcaptcha/' },
+            { text: 'KeyCAPTCHA', link: '/captcha/keycaptcha/' },
+            { text: 'CyberSiARA', link: '/captcha/cybersiara/' },
           ]}
         ]
       },
