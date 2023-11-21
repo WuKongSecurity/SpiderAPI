@@ -264,6 +264,9 @@ module.exports = {
             { text: 'mCaptcha', link: '/captcha/mcaptcha/' },
             { text: 'KeyCAPTCHA', link: '/captcha/keycaptcha/' },
             { text: 'CyberSiARA', link: '/captcha/cybersiara/' },
+            { text: 'Friendly Captcha', link: '/captcha/friendly-captcha/' },
+            { text: 'ARCaptcha', link: '/captcha/arcaptcha/' },
+            { text: 'CaptchaFox', link: '/captcha/captchafox/' },
           ]}
         ]
       },
