@@ -221,7 +221,10 @@ module.exports = {
               { text: '行为验证 3.0', link: '/captcha/geetest-v3/' },
               { text: '行为验证 4.0', link: '/captcha/geetest-v4/' }
             ]},
-            { text: '阿里云 Captcha', link: '/captcha/aliyun/' },
+            { text: '阿里云云盾验证码', link: '/captcha/aliyun-v1/', items: [
+              { text: '阿里云云盾验证码 1.0', link: '/captcha/aliyun-v1/' },
+              { text: '阿里云云盾验证码 2.0', link: '/captcha/aliyun-v2/' },
+            ]},
             { text: '腾讯天御 T-Sec', link: '/captcha/tencent/' },
             { text: '小红书 redCaptcha', link: '/captcha/redcaptcha/' },
             { text: '小盾 XIAODUN', link: '/captcha/xiaodun/' },
