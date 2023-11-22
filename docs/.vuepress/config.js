@@ -1,4 +1,5 @@
 const htmlModules = require('./config/htmlModules.js');
+import { searchConsolePlugin } from 'vuepress-plugin-china-search-console'
 
 
 module.exports = {
@@ -11,15 +12,16 @@ module.exports = {
   base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
-    ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing' }],
+    ['meta', { name: 'keywords', content: 'spiderapi,jsvmp,frida,spider,api,hook,adb' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
-
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-L7Nb1StNAA' }], // 百度搜索验证
     // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
     // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
     // ['script', { src: 'https://lib.baomitu.com/jquery/1.9.1/jquery.min.js', type: 'text/javascript' }],
     ['script', { src: '//sdk.51.la/js-sdk-pro.min.js', type: 'text/javascript', id: 'LA_COLLECT', charset: 'UTF-8' }],
     // 极验行为验证 2.0 需要的 JS，直接在 md 里插入 <script> 标签会存在加载时机问题，到底是为什么？不会前端啊！
     ['script', { src: 'https://static.geetest.com/static/js/geetest.0.0.0.js', type: 'text/javascript' }],
+    ['script', { src: '/js/autoPush.js', type: 'text/javascript' }],
     ['script', {}, `LA.init({id:"3FpCxw5JhIELmjz2",ck:"3FpCxw5JhIELmjz2"})`],
     ['script', {},
     `
@@ -380,6 +382,13 @@ module.exports = {
       'vuepress-plugin-baidu-tongji', // 百度统计
       {
         hm: '769c2781bafe36adb3f3fcf97f2d02bd'
+      }
+    ],
+
+    [
+      'sitemap', // sitemap
+      {
+        hostname: 'https://spiderapi.cn'
       }
     ],
 

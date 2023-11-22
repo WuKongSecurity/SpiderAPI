@@ -24,5 +24,7 @@
     "vuepress-theme-vdoing": "^1.12.9",
     "yamljs": "^0.3.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "vuepress-plugin-sitemap": "^2.3.1"
+  }
 }
