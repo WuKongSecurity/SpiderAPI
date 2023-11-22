@@ -1,5 +1,4 @@
 const htmlModules = require('./config/htmlModules.js');
-import { searchConsolePlugin } from 'vuepress-plugin-china-search-console'
 
 
 module.exports = {
