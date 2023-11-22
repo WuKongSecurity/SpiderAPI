@@ -58,8 +58,8 @@ data:
     bgColor: '#F0DFB1'
     textColor: '#2A3344'
   - name: Spider Law (待定)
-    desc: 🚀 SpiderLaw - 数据采集相关法律法规建设
-    link: /
+    desc: 🚀 SpiderLaw - 推动数据采集合规性建设
+    link: https://github.com/TRHX/SpiderLaw
     bgColor: '#DFEEE7'
     textColor: '#2A3344'
 ```
@@ -71,6 +71,10 @@ data:
 
 ::: danger ❗❗❗注意
 Spider API 项目由 <a href="https://www.itbob.cn" target="_blank">BOB</a> 在业余时间建立和完善，现仍处于初期建设当中，若您在爬虫工作当中（包括但不限于JS/APP/小程序逆向、数据分析处理等）有常用的、通用的代码、脚本，可以联系站长收录到本站；若发现文档中有错误之处，欢迎交流指正。
+
+<br>
+
+**所有页面地址未最终确定，随时可能变化！**
 :::
 
 <br/>
