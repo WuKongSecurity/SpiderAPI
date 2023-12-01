@@ -53,12 +53,12 @@ data:
     bgColor: '#f1f1f1'
     textColor: '#2A3344'
   - name: Spider Api
-    desc: 🚀 SpiderApi - 爬虫逆向常用 API
+    desc: 🚀 SpiderApi - 虫术 - 爬虫逆向常用 API
     link: https://spiderapi.cn/
     bgColor: '#F0DFB1'
     textColor: '#2A3344'
   - name: Spider Law (待定)
-    desc: 🚀 SpiderLaw - 推动数据采集合规性建设
+    desc: 🚀 SpiderLaw - 虫规 - 数据采集合规性建设
     link: https://github.com/TRHX/SpiderLaw
     bgColor: '#DFEEE7'
     textColor: '#2A3344'
