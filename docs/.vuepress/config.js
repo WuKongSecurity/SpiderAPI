@@ -194,6 +194,7 @@ module.exports = {
             text: '指纹信息', items: [
               { text: 'CreepJS', link: '/pages/creepjs/' },
               { text: 'Fingerprint2', link: '/pages/fingerprint2/' },
+              { text: '自动化工具检测', link: '/pages/bot-test/' },
             ]
           },
           {
