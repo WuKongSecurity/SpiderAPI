@@ -1,6 +1,6 @@
-let HEADLESS  = 1;
-let HEADFUL   = 0;
-let UNDEFINED = -1;
+var HEADLESS  = 1;
+var HEADFUL   = 0;
+var UNDEFINED = -1;
 
 
 // Test for user agent
