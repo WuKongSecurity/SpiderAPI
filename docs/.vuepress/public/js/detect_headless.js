@@ -1,6 +1,6 @@
-const HEADLESS  = 1;
-const HEADFUL   = 0;
-const UNDEFINED = -1;
+let HEADLESS  = 1;
+let HEADFUL   = 0;
+let UNDEFINED = -1;
 
 
 // Test for user agent
@@ -487,7 +487,9 @@ const headlessTests = [
     { name: "Browser features",             id: "browser-features",          correct: "HiDPI/Retina 屏幕为 true",                 target: "SE/PH/PL/PP",  testFunction: testBrowserFeatures            },  // abandoned
 ];
 
-// headlessTests.forEach(test => {
-//     generateTableRow(test);
-//     testBrowser(test).then(res => {});
-// })
+setTimeout(function() {
+    headlessTests.forEach(test => {
+        generateTableRow(test);
+        testBrowser(test).then(res => {});
+    }), 500
+})
