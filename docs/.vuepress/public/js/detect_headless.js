@@ -461,7 +461,7 @@ async function testBrowser(test) {
 }
 
 // All testing items
-const headlessTests = [
+var headlessTests = [
     { name: "User Agent",                   id: "user-agent",                correct: "不含 headless 关键字",                     target: "SE/PH/PL/PP",  testFunction: testUserAgent                  },
     { name: "App Version",                  id: "app-version",               correct: "不含 headless 关键字",                     target: "SE/PH/PL/PP",  testFunction: testAppVersion                 },
     { name: "Languages",                    id: "languages",                 correct: "至少包含一种语言",                          target: "SE/PH/PL/PP",  testFunction: testLanguages                  },
@@ -487,9 +487,9 @@ const headlessTests = [
     { name: "Browser features",             id: "browser-features",          correct: "HiDPI/Retina 屏幕为 true",                 target: "SE/PH/PL/PP",  testFunction: testBrowserFeatures            },  // abandoned
 ];
 
-setTimeout(function() {
-    headlessTests.forEach(test => {
-        generateTableRow(test);
-        testBrowser(test).then(res => {});
-    }), 500
-})
+// setTimeout(function() {
+//     headlessTests.forEach(test => {
+//         generateTableRow(test);
+//         testBrowser(test).then(res => {});
+//     }), 500
+// })
