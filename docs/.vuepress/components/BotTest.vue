@@ -6,6 +6,7 @@
             <div class='explain-box headful'></div> normal 正常
             <div class='explain-box headless'></div> abnormal 异常
             <div class='explain-box undefined'></div> suspicious 可疑
+            <div class="explain-box beta"></div> bata 测试阶段
         </div>
         <br>
         <div class='headless-div'>
@@ -14,6 +15,7 @@
             <div class='explain-box target-box'>PH</div> phantomjs
             <div class='explain-box target-box'>PL</div> playwright
             <div class='explain-box target-box'>PP</div> puppeteer / pyppeteer
+            <div class="explain-box target-box">PE</div> puppeteer-extra
         </div>
         <br>
         <table id='headless-table'>
@@ -66,6 +68,9 @@ export default {
     }
     .undefined {
         background-color: #ffff00 !important;
+    }
+    .beta {
+        background-color: #b45ddf !important;
     }
     .explain-box {
         height: 15px;
