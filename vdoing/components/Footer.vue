@@ -26,9 +26,6 @@
       | Copyright © {{ footer.createYear }}-{{ new Date().getFullYear() }}
       <span v-html="footer.copyrightInfo"></span>
     </template> -->
-    <!-- <span ref="la51-span">
-      <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3FpCxw5JhIELmjz2/quote.js?theme=#666666,#333333,#666666,#007BFF,#FFFFFF,#1690FF,13&f=12&display=0,0,0,1,0,1,0,1"></script>
-    </span> -->
   </div>
 </template>
 
