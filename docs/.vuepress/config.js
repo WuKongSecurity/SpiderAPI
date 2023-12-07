@@ -338,12 +338,12 @@ module.exports = {
     //   ]
     // },
 
-    footer: { // 页脚信息
-      createYear: 2023, // 博客创建年份
-      copyrightInfo: `
-      <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3FpCxw5JhIELmjz2/quote.js?theme=#666666,#333333,#666666,#007BFF,#FFFFFF,#1690FF,13&f=12&display=0,0,0,1,0,1,0,1"></script>
-      `,
-    },
+    // footer: { // 页脚信息
+    //   createYear: 2023, // 博客创建年份
+    //   copyrightInfo: `
+    //   <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3FpCxw5JhIELmjz2/quote.js?theme=#666666,#333333,#666666,#007BFF,#FFFFFF,#1690FF,13&f=12&display=0,0,0,1,0,1,0,1"></script>
+    //   `,
+    // },
     
     htmlModules,
   },
