@@ -22,7 +22,9 @@
     <br/>
     Copyright © 2023 - {{ new Date().getFullYear() }}<a href="https://www.itbob.cn/" target="_blank"> IT.BOB</a>丨
     <span id="sitetime">正在载入网站运行时间...</span>丨
-    <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3FpCxw5JhIELmjz2/quote.js?theme=#666666,#333333,#666666,#007BFF,#FFFFFF,#1690FF,13&f=12&display=0,0,0,1,0,1,0,1"></script>
+    <template v-if="footer">
+      <span v-html="footer.copyrightInfo"></span>
+    </template>
     <!-- <template v-if="footer">
       | Copyright © {{ footer.createYear }}-{{ new Date().getFullYear() }}
       <span v-html="footer.copyrightInfo"></span>

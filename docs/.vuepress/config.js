@@ -338,20 +338,12 @@ module.exports = {
     //   ]
     // },
 
-    // footer: { // 页脚信息
-    //   createYear: 2023, // 博客创建年份
-    //   copyrightInfo: `
-    //   <a href="https://spiderapi.cn/" target="_blank">SpiderApi</a> All Rights Reserved.
-    //   <br/>
-    //   <br/>
-    //   <span>
-    //     <a href="https://beian.miit.gov.cn/" target="_blank"><img src="/img/icp.png" alt="ICP" style="width:20px; height:auto; margin-bottom:-2px"> 鄂ICP备19003281号-9</a>丨
-    //     <a href="https://cloudbase.net/" target="_blank"><img src="/img/cloudbase.png" alt="云开发 CloudBase" style="width:22px; height:auto; margin-bottom:-2px"> CloudBase</a>丨
-    //     <a href="https://v6.51.la/land/3FcHt9RWSQ8XvN5u" target="_blank"><img src="https://sdk.51.la/icon/1-1.png" alt="51la 网站统计" style="width:auto; height:12px; margin-bottom:-1px"></a>丨
-    //     <span id="sitetime">正在载入网站运行时间...</span>
-    //   </span>
-    //   `,
-    // },
+    footer: { // 页脚信息
+      createYear: 2023, // 博客创建年份
+      copyrightInfo: `
+      <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3FpCxw5JhIELmjz2/quote.js?theme=#666666,#333333,#666666,#007BFF,#FFFFFF,#1690FF,13&f=12&display=0,0,0,1,0,1,0,1"></script>
+      `,
+    },
     
     htmlModules,
   },
