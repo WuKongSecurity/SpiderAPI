@@ -3,8 +3,8 @@ const htmlModules = require('./config/htmlModules.js');
 
 module.exports = {
 
-  theme: 'vdoing', // 使用依赖包主题 npm install vuepress-theme-vdoing
-  // theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
+  // theme: 'vdoing', // 使用依赖包主题 npm install vuepress-theme-vdoing
+  theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
   title: "SpiderApi - 虫术 - 爬虫逆向常用 API",
   description: 'SpiderAPI - 虫术 - 汇总各种爬虫逆向常用 API，涉及各种网络请求库，自动化框架，爬虫框架，HOOK 脚本，ADB 命令等。',
@@ -337,20 +337,22 @@ module.exports = {
     //     }
     //   ]
     // },
-    footer: { // 页脚信息
-      createYear: 2023, // 博客创建年份
-      copyrightInfo: `
-      <a href="https://spiderapi.cn/" target="_blank">SpiderApi</a> All Rights Reserved.
-      <br/>
-      <br/>
-      <span>
-        <a href="https://beian.miit.gov.cn/" target="_blank"><img src="/img/icp.png" alt="ICP" style="width:20px; height:auto; margin-bottom:-2px"> 鄂ICP备19003281号-9</a>丨
-        <a href="https://cloudbase.net/" target="_blank"><img src="/img/cloudbase.png" alt="云开发 CloudBase" style="width:22px; height:auto; margin-bottom:-2px"> CloudBase</a>丨
-        <a href="https://v6.51.la/land/3FcHt9RWSQ8XvN5u" target="_blank"><img src="https://sdk.51.la/icon/1-1.png" alt="51la 网站统计" style="width:auto; height:12px; margin-bottom:-1px"></a>丨
-        <span id="sitetime">正在载入网站运行时间...</span>
-      </span>
-      `,
-    },
+
+    // footer: { // 页脚信息
+    //   createYear: 2023, // 博客创建年份
+    //   copyrightInfo: `
+    //   <a href="https://spiderapi.cn/" target="_blank">SpiderApi</a> All Rights Reserved.
+    //   <br/>
+    //   <br/>
+    //   <span>
+    //     <a href="https://beian.miit.gov.cn/" target="_blank"><img src="/img/icp.png" alt="ICP" style="width:20px; height:auto; margin-bottom:-2px"> 鄂ICP备19003281号-9</a>丨
+    //     <a href="https://cloudbase.net/" target="_blank"><img src="/img/cloudbase.png" alt="云开发 CloudBase" style="width:22px; height:auto; margin-bottom:-2px"> CloudBase</a>丨
+    //     <a href="https://v6.51.la/land/3FcHt9RWSQ8XvN5u" target="_blank"><img src="https://sdk.51.la/icon/1-1.png" alt="51la 网站统计" style="width:auto; height:12px; margin-bottom:-1px"></a>丨
+    //     <span id="sitetime">正在载入网站运行时间...</span>
+    //   </span>
+    //   `,
+    // },
+    
     htmlModules,
   },
 
