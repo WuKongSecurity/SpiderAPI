@@ -1,0 +1,101 @@
+<template>
+    <div style='text-align: center'>
+        <h1>Automated/Headless browser detection</h1>
+        <div class='headless-div'>
+            颜色状态：
+            <div class='explain-box headful'></div> normal 正常
+            <div class='explain-box headless'></div> abnormal 异常
+            <div class='explain-box undefined'></div> suspicious 可疑
+        </div>
+        <br>
+        <div class='headless-div'>
+            检测对象：
+            <div class='explain-box target-box'>SE</div> selenium
+            <div class='explain-box target-box'>PH</div> phantomjs
+            <div class='explain-box target-box'>PL</div> playwright
+            <div class='explain-box target-box'>PP</div> puppeteer / pyppeteer
+        </div>
+        <br>
+        <table id='headless-table'>
+            <tr>
+                <th>测试项目</th>
+                <th>测试结果</th>
+                <th>正确参考</th>
+                <th>检测对象</th>
+            </tr>
+        </table>
+    </div>
+</template>
+<!-- <script src='https://lib.baomitu.com/modernizr/latest/modernizr.min.js'></script>
+<script src='https://cdn.itbob.cn/spiderapi/detect_headless.js'></script> -->
+<script>
+export default {
+    mounted() {
+        headlessTests.forEach(function(test) {
+            generateTableRow(test);
+            testBrowser(test).then(function(res) {});
+        });
+    },
+};
+</script>
+
+<style>
+    #headless-table, #headless-table th, #headless-table td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        text-align: center;
+    }
+    #headless-table th {
+        font-size: large;
+    }
+    #headless-table td:nth-child(1) {
+        max-width: 150px;
+    }
+    #headless-table td:nth-child(2) {
+        max-width: 300px;
+    }
+    #headless-table td:nth-child(3) {
+        max-width: 150px;
+    }
+    .headful {
+        background-color: #00ff00 !important;
+    }
+    .headless {
+        background-color: #ff0000 !important;
+    }
+    .undefined {
+        background-color: #ffff00 !important;
+    }
+    .explain-box {
+        height: 15px;
+        width: 15px;
+        margin-right: 3px;
+        margin-left: 3px;
+        border: 1px solid black;
+        display: inline-block;
+    }
+    .target-box {
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        background-color: #0078D7;
+    }
+    .headless-div {
+        text-align: center;
+    }
+    .headless-submit {
+        background: #347eff;
+        border-radius: 4px;
+        margin: 20px 0;
+        display: inline-block;
+        width: 300px;
+        height: 50px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px;
+        line-height: 49px;
+    }
+</style>
