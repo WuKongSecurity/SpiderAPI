@@ -21,26 +21,27 @@
     <br/>
     <br/>
     Copyright © 2023 - {{ new Date().getFullYear() }}<a href="https://itbob.cn/" target="_blank"> IT.BOB</a>丨
-    <span id="sitetime">正在载入网站运行时间...</span>丨
+    <span ref="sitetime" id="sitetime">正在载入网站运行时间...</span>丨
     <!-- <template v-if="footer">
       | Copyright © {{ footer.createYear }}-{{ new Date().getFullYear() }}
       <span v-html="footer.copyrightInfo"></span>
     </template> -->
-    <span ref="la51-span">
-      <!-- <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3FpCxw5JhIELmjz2/quote.js?theme=#666666,#333333,#666666,#007BFF,#FFFFFF,#1690FF,13&f=12&display=0,0,0,1,0,1,0,1"></script> -->
-    </span>
+    <!-- <span ref="la51-span">
+      <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3FpCxw5JhIELmjz2/quote.js?theme=#666666,#333333,#666666,#007BFF,#FFFFFF,#1690FF,13&f=12&display=0,0,0,1,0,1,0,1"></script>
+    </span> -->
   </div>
 </template>
 
 <script>
 export default {
   mounted() {
-    const la51SpanElement = this.$refs.la51-span;
+    const la51SpanElement = this.$refs.sitetime;
     if (la51SpanElement) {
       const la51scriptElement = document.createElement('script');
-      la51scriptElement.id = 'LA-DATA-WIDGET'
+      la51scriptElement.id = 'LA-DATA-WIDGET';
       la51scriptElement.src = 'https://v6-widget.51.la/v6/3FpCxw5JhIELmjz2/quote.js?theme=#666666,#333333,#666666,#007BFF,#FFFFFF,#1690FF,13&f=12&display=0,0,0,1,0,1,0,1';
-      la51SpanElement.appendChild(la51scriptElement);
+      // la51SpanElement.appendChild(la51scriptElement);
+      la51SpanElement.insertAdjacentElement('afterend', la51scriptElement);
     }
   },
   computed: {
