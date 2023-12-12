@@ -1,21 +1,25 @@
 <template>
     <div style='text-align: center'>
-        <h1>Automated/Headless browser detection</h1>
-        <div class='headless-div'>
+        <h1>Automated/Headless Browser Detection (AHBD)</h1>
+        <div>
             颜色状态：
-            <div class='explain-box headful'></div> normal 正常
-            <div class='explain-box headless'></div> abnormal 异常
-            <div class='explain-box undefined'></div> suspicious 可疑
-            <div class="explain-box beta"></div> bata 测试阶段
+            <div class="explain-box headful"></div> Normal 正常
+            <div class="explain-box headless"></div> Abnormal 异常
+            <div class="explain-box undefined"></div> Suspicious 可疑
+            <div class="explain-box beta"></div> Bata 测试阶段
         </div>
         <br>
-        <div class='headless-div'>
+        <div>
             检测对象：
-            <div class='explain-box target-box'>SE</div> selenium
-            <div class='explain-box target-box'>PH</div> phantomjs
-            <div class='explain-box target-box'>PL</div> playwright
-            <div class='explain-box target-box'>PP</div> puppeteer / pyppeteer
-            <div class="explain-box target-box">PE</div> puppeteer-extra
+            <div class="explain-box target-box">SE</div> Selenium
+            <div class="explain-box target-box">PH</div> Phantomjs
+            <div class="explain-box target-box">PL</div> Playwright
+            <div class="explain-box target-box">PP</div> Puppeteer / Pyppeteer
+            <div class="explain-box target-box">DP</div> DrissionPage
+        </div>
+        <br>
+        <div>
+            <div class="explain-box target-box">PE</div> Puppeteer-extra / Playwright-extra
         </div>
         <br>
         <table id='headless-table'>
@@ -28,15 +32,25 @@
         </table>
     </div>
 </template>
-<!-- <script src='https://lib.baomitu.com/modernizr/latest/modernizr.min.js'></script>
-<script src='https://cdn.itbob.cn/spiderapi/detect_headless.js'></script> -->
 <script>
 export default {
     mounted() {
-        headlessTests.forEach(function(test) {
-            generateTableRow(test);
-            testBrowser(test).then(function(res) {});
-        });
+        const script1 = document.createElement('script');
+        script1.src = 'https://lib.baomitu.com/modernizr/latest/modernizr.min.js';
+        script1.async = true;
+        document.head.appendChild(script1);
+        
+        const script2 = document.createElement('script');
+        script2.src = 'https://cdn.itbob.cn/spiderapi/detection.js';
+        script2.async = true;
+        document.head.appendChild(script2);
+
+        setTimeout(function() {
+            headlessTests.forEach(function(test) {
+                generateTableRow(test);
+                testBrowser(test).then(function(res) {});
+            });
+        }, 500)
     },
 };
 </script>
@@ -85,22 +99,5 @@ export default {
         font-size: 10px;
         color: white;
         background-color: #0078D7;
-    }
-    .headless-div {
-        text-align: center;
-    }
-    .headless-submit {
-        background: #347eff;
-        border-radius: 4px;
-        margin: 20px 0;
-        display: inline-block;
-        width: 300px;
-        height: 50px;
-        box-sizing: border-box;
-        border: 1px solid #ccc;
-        color: #fff;
-        cursor: pointer;
-        font-size: 14px;
-        line-height: 49px;
     }
 </style>

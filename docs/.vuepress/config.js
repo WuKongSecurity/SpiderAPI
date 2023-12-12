@@ -19,10 +19,7 @@ module.exports = {
     // ['script', { src: 'https://lib.baomitu.com/jquery/1.9.1/jquery.min.js', type: 'text/javascript' }],
     ['script', { src: '//sdk.51.la/js-sdk-pro.min.js', type: 'text/javascript', id: 'LA_COLLECT', charset: 'UTF-8' }],
     ['script', { src: 'https://lib.baomitu.com/jquery/1.9.1/jquery.min.js', type: 'text/javascript' }],
-    // 极验行为验证 2.0 需要的 JS，直接在 md 里插入 <script> 标签会存在加载时机问题，到底是为什么？不会前端啊！
     ['script', { src: 'https://static.geetest.com/static/js/geetest.0.0.0.js', type: 'text/javascript' }],
-    ['script', { src: 'https://lib.baomitu.com/modernizr/latest/modernizr.min.js', type: 'text/javascript' }],
-    ['script', { src: 'https://cdn.itbob.cn/spiderapi/detect_headless.js', type: 'text/javascript' }],
     ['script', { src: '/js/autoPush.js', type: 'text/javascript' }],
     ['script', {}, `LA.init({id:"3FpCxw5JhIELmjz2",ck:"3FpCxw5JhIELmjz2"})`],
     ['script', {},
@@ -196,7 +193,7 @@ module.exports = {
             text: '指纹信息', items: [
               { text: 'CreepJS', link: '/pages/creepjs/' },
               { text: 'Fingerprint2', link: '/pages/fingerprint2/' },
-              { text: '自动化工具检测', link: '/pages/bot-test/' },
+              { text: '自动化工具检测', link: '/pages/AHBD/' },
             ]
           },
           {

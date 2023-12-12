@@ -95,6 +95,12 @@ Spider API 项目由 <a href="https://www.itbob.cn" target="_blank">BOB</a> 在�
   link: https://blog.csdn.net/Y_morph
   bgColor: '#CBEAFA'
   textColor: '#6854A1'
+- name: 十一姐
+  desc: JS 逆向，公众号逆向OneByOne
+  avatar: /img/shiyi.jpg
+  link: https://blog.csdn.net/weixin_43411585
+  bgColor: '#f1f1f1'
+  textColor: '#2A3344'
 ```
 :::
 
