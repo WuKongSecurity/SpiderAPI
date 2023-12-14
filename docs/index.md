@@ -134,35 +134,28 @@ Spider API 项目由 <a href="https://www.itbob.cn" target="_blank">BOB</a> 在�
 
 对本站有任何问题和想法，请给我提 [Issue](https://github.com/TRHX/SpiderApi/issues)。技术交流、商务合作、广告赞助可以通过以下方式联系我们：
 
-<table>
+<!-- <table>
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <a href="/img/qrcode/wechat.webp" target="_blank">
-          <img src="/img/qrcode/wechat.webp" class="no-zoom" style="width:180px;margin: 10px;">
-        </a>
+        <img src="/img/qrcode/wechat.jpg" alt="站长微信 (备注来意)" style="width:180px;margin: 10px;">
         <p>站长微信 (备注来意)</p>
       </td>
       <td align="center" valign="middle">
-        <a href="/img/qrcode/gzh.webp" target="_blank">
-          <img :src="$withBase('/img/qrcode/gzh.webp')" alt="群号: 694387113" class="no-zoom" style="width:180px;margin: 10px;">
-        </a>
-        <p>站长公众号 (爬虫矛与盾)</p>
+          <img src="/img/qrcode/gzh.jpg" alt="站长公众号 (虫技)" style="width:180px;margin: 10px;">
+        <p>站长公众号 (虫技)</p>
       </td>
       <td align="center" valign="middle">
-        <a href="/img/qrcode/qq.webp" target="_blank">
-          <img :src="$withBase('/img/qrcode/qq.webp')" alt="群号: 694387113" class="no-zoom" style="width:180px;margin: 10px;">
-        </a>
-        <p>QQ 交流群 (941013658)</p>
+          <img src="/img/qrcode/qq.jpg" alt="QQ 群: 694387113" style="width:180px;margin: 10px;">
+        <p>QQ 群 (941013658)</p>
       </td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
-<!-- | <img :src="$withBase('/img/qrcode/wechat.webp')" alt="赞赏码" width=180> | <img :src="$withBase('/img/qrcode/gzh.webp')" alt="Wechat QRcode" width=180>| <img :src="$withBase('/img/qrcode/qq.webp')" alt="Alipay QRcode" width=180> |
+| <img :src="$withBase('/img/qrcode/wechat.jpg')" alt="站长微信 (备注来意)" width=180> | <img :src="$withBase('/img/qrcode/gzh.jpg')" alt="站长公众号 (虫技)" width=180>| <img :src="$withBase('/img/qrcode/qq.jpg')" alt="QQ 群: 694387113" width=180> |
 | :---: | :---: | :---: |
-| 站长微信 (备注来意) | 站长公众号 (爬虫矛与盾) | QQ交流群 (941013658) | -->
-
+| 站长微信 (备注来意) | 站长公众号 (虫技) | QQ交流群 (941013658) |
 
 
 <!-- AD -->
