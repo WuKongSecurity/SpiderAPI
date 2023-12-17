@@ -69,11 +69,14 @@ export default {
                     if (data.success) {
                         if (data.code === 200) {
                             alert('登录成功！');
+                            location.reload();
                         } else {
                             alert('登录失败，请重新验证！');
+                            location.reload();
                         }
                     } else {
                         alert('登录失败，请重新验证！');
+                        location.reload();
                     }
                 }
             });

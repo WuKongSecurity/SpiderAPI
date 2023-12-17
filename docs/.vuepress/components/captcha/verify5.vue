@@ -23,16 +23,17 @@ export default {
         script.async = true;
         document.head.appendChild(script);
         
-        $(document).ready(function () {
-            if(location.href.indexOf('#reloaded') == -1){
-                location.href = location.href + '#reloaded';
-                location.reload();
-            }
-        });
+        // $(document).ready(function () {
+        //     if(location.href.indexOf('#reloaded') == -1){
+        //         location.href = location.href + '#reloaded';
+        //         location.reload();
+        //     }
+        // });
+
         $('#submit').click(function () {
             let verifyId = document.getElementsByName('login-v5')[0].value;
             if (!verifyId) {
-            return alert('请先完成验证！');
+                return alert('请先完成验证！');
             } else {
                 $.ajax({
                     type: 'post',
