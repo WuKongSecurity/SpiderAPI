@@ -13,55 +13,12 @@ module.exports = {
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'spiderapi,jsvmp,frida,spider,api,hook,adb' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
-    ['meta', { name: 'baidu-site-verification', content: 'codeva-L7Nb1StNAA' }], // 百度搜索验证
-    // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
-    // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
-    // ['script', { src: 'https://lib.baomitu.com/jquery/1.9.1/jquery.min.js', type: 'text/javascript' }],
-    ['script', { src: '//sdk.51.la/js-sdk-pro.min.js', type: 'text/javascript', id: 'LA_COLLECT', charset: 'UTF-8' }],
-    ['script', { src: 'https://lib.baomitu.com/jquery/1.9.1/jquery.min.js', type: 'text/javascript' }],
-    ['script', { src: 'https://static.geetest.com/static/js/geetest.0.0.0.js', type: 'text/javascript' }],
-    ['script', { src: '/js/autoPush.js', type: 'text/javascript' }],
-    ['script', {}, `LA.init({id:"3FpCxw5JhIELmjz2",ck:"3FpCxw5JhIELmjz2"})`],
-    ['script', {},
-    `
-    function makeMulti(string) {
-        let l = new String(string)
-        l = l.substring(l.indexOf("/*") + 3, l.lastIndexOf("*/"))
-        return "%c " + l
-    };
-    const string = function () {
-      /*
-           _____       _     __          ___          _ 
-           / ___/____  (_)___/ /__  _____/   |  ____  (_)        爬虫爬得欢
-           \\__ \\/ __ \\/ / __  / _ \\/ ___/ /| | / __ \\/ /        监狱要坐穿
-          ___/ / /_/ / / /_/ /  __/ /  / ___ |/ /_/ / /        数据玩得溜
-         /____/ .___/_/\\__,_/\\___/_/  /_/  |_/ .___/_/        牢饭吃个够
-             /_/                            /_/          
-      */
-    };
-    console.log(makeMulti(string), "color: #0084ff");
-    console.log("\\n %c © BOB'S BLOG %c itbob.cn %c © SpiderApi %c spiderapi.cn %c © vdoing %c doc.xugaoyi.com \\n", "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;", "color: #ffffff; background: #0084ff; padding:5px 0;", "background: #fadfa3; padding:5px 0;", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #fadfa3; padding:5px 0;");
-    `],
-    ['script', {},
-    `
-    //网站运行时长
-    function ShowRunTime(id) {
-        var BootDate = new Date("2023/8/13 00:03:16");//设置网站运行时间，格式：年/月/日 时:分:秒
-        var NowDate = new Date();
-        var RunDateM = parseInt(NowDate - BootDate);
-        var RunDays = Math.floor(RunDateM / (24 * 3600 * 1000));
-        var RunHours = Math.floor(RunDateM % (24 * 3600 * 1000) / (3600 * 1000));
-        var RunMinutes = Math.floor(RunDateM % (24 * 3600 * 1000) % (3600 * 1000) / (60 * 1000));
-        var RunSeconds = Math.round(RunDateM % (24 * 3600 * 1000) % (3600 * 1000) % (60 * 1000) / 1000);
-        document.getElementById(id).innerHTML = "小破站已运行了 "
-            + "<font style='color:#FFA500;font-weight:bold'>" + RunDays + "</font>" + " 天 "
-            + "<font style='color:#1DBF97;font-weight:bold'>" + RunHours + "</font>" + " 小时 "
-            + "<font style='color:#8A2BE2;font-weight:bold'>" + RunMinutes + "</font>" + " 分 "
-            + "<font style='color:#007EC6;font-weight:bold'>" + RunSeconds + "</font>" + " 秒 ";
-    }
-    setInterval("ShowRunTime('sitetime')", 1000);
-    `
-    ],
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-L7Nb1StNAA' }],                                        // 百度搜索验证
+    // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }],                              // 广告相关
+    // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }],                            // 广告相关
+    ['script', { src: '//sdk.51.la/js-sdk-pro.min.js', type: 'text/javascript', id: 'LA_COLLECT', charset: 'UTF-8' }],  // 51.la 网站统计
+    ['script', { src: 'https://lib.baomitu.com/jquery/1.9.1/jquery.min.js', type: 'text/javascript' }],                 // jquery
+    ['script', { src: '/js/spiderapi.js', type: 'text/javascript' }],                                                   // 自定义 JS
   ],
 
   // 主题配置
