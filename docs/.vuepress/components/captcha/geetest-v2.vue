@@ -27,15 +27,15 @@ export default {
         script1.src = 'https://static.geetest.com/static/tools/gt.js';
         script1.async = true;
         document.head.appendChild(script1);
-        
-        const script2 = document.createElement('script');
-        script2.src = 'https://static.geetest.com/static/js/offline.6.0.0.js';
-        script2.async = true;
-        document.head.appendChild(script2);
 
+        // const script2 = document.createElement('script');
+        // script2.src = 'https://static.geetest.com/static/js/geetest.0.0.0.js';
+        // script2.async = true;
+        // document.head.appendChild(script2);
+        
         const script3 = document.createElement('script');
-        script3.src = 'https://static.geetest.com/static/js/geetest.0.0.0.js';
-        script3.async = true;
+        script3.src = 'https://static.geetest.com/static/js/offline.6.0.0.js';
+        script3.defer = 'defer';
         document.head.appendChild(script3);
 
         setTimeout(function() {

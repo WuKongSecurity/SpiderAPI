@@ -19,6 +19,8 @@ module.exports = {
     ['script', { src: '//sdk.51.la/js-sdk-pro.min.js', type: 'text/javascript', id: 'LA_COLLECT', charset: 'UTF-8' }],  // 51.la 网站统计
     ['script', { src: 'https://lib.baomitu.com/jquery/1.9.1/jquery.min.js', type: 'text/javascript' }],                 // jquery
     ['script', { src: '/js/spiderapi.js', type: 'text/javascript' }],                                                   // 自定义 JS
+    ['script', { src: 'https://static.geetest.com/static/js/geetest.0.0.0.js', type: 'text/javascript' }],              // 极验2.0 JS
+
   ],
 
   // 主题配置
