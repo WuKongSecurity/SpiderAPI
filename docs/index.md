@@ -3,8 +3,16 @@ home: true
 heroImage: /img/logo.png
 heroText: Spider API
 # tagline: 🚀爬虫逆向常用 API
-actionText: 查看目录以快速开始
-actionLink: /pages/toc/
+actions:
+  - text: 🧑‍💻 查看目录
+    link: /pages/toc/
+  - text: 🌟 点亮 Star
+    link: https://github.com/TRHX/SpiderApi
+
+# actionText: ⛵️查看目录
+# actionLink: /pages/toc/
+# https://github.com/vuepress/vuepress-next/issues/23
+
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
@@ -70,12 +78,83 @@ data:
 </p>
 
 ::: danger ❗❗❗注意
-Spider API 项目由 <a href="https://www.itbob.cn" target="_blank">BOB</a> 在业余时间建立和完善，现仍处于初期建设当中，若您在爬虫工作当中（包括但不限于JS/APP/小程序逆向、数据分析处理等）有常用的、通用的代码、脚本，可以联系站长收录到本站；若发现文档中有错误之处，欢迎交流指正。
+本项目由 <a href="https://www.itbob.cn" target="_blank">BOB</a> 在业余时间完善，仍处于初期建设当中，面向所有工程师征集常用工具/代码，**所有内容未最终确定，随时可能变化！**
+:::
 
 <br>
 
-**所有页面地址未最终确定，随时可能变化！**
+::: details 🏗️ TODO 进度表
+
+<!-- <table border="1" align="center">
+  <thead>
+    <tr>
+      <th>分类</th>
+      <th>细分</th>
+      <th>状态</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr align="center">
+    <td rowspan="2">网络请求</td>
+    <td>基本请求<br>(tls/ja3 指纹修改，py/go/js 多语言)</td>
+    <td>✅</td>
+  </tr>
+  <tr align="center">
+    <td>异步协程 / 多线程 / 多进程</td>
+    <td>✅</td>
+  </tr>
+  <tr align="center">
+    <td rowspan="4">数据处理</td>
+    <td>解析提取 / 通用解析</td>
+    <td>✅</td>
+  </tr>
+  <tr align="center">
+    <td>数据分析<br>(分词 / 统计 / 科学计算)</td>
+    <td>✅</td>
+  </tr>
+  <tr align="center">
+    <td>数据分析<br>(分词 / 统计 / 科学计算)</td>
+    <td>✅</td>
+  </tr>
+  </tbody>
+</table> -->
+
+- ✅ **[验证码](/captcha/)**：
+  - ✅ **国内验证码**：顶象、数美、易盾、极验、阿里云云盾、腾讯天御、小红书、小盾...
+  - ✅️ **国外验证码**：cloudflare、reCAPTCHA、hCaptcha、FunCAPTCHA、DataDome、PerimeterX...
+
+- 🟩 **[辅助查询](/pages/js-hook/)**：
+  - ✅️ **辅助脚本**：JS Hook，Frida API，AST Babel...
+  - ❌ **命令查询**：Linux 命令、ADB 命令、ARM 指令集、Dalvik 指令集...
+  - ✅️ **指纹信息**：<font color=red>浏览器指纹检测、TLS 指纹检测、自动化工具检测</font>...
+  - ❌ **加密算法**：MD5、AES、RSA、DES、SHA、RC4...
+
+- 🟩 **[网络请求](/net/requests)**：
+  - ❌ **基本请求**：requests、httpx、tls_client、curl_cffi、request_go，TLS / JA3 指纹修改，多语言版本...
+  - ❌ **异步协程**：asyncio、gevent...
+  - ❌ **多线程**：threading、vthread...
+  - ❌ **多进程**：multiprocessing...
+
+- 🟩 **[框架接口](/pages/selenium/)**：
+  - ❌ **自动化框架**：selenium、pyppeteer、playwright、splash、DrissionPage、appium、airtest、特征隐藏...
+  - ❌ **爬虫框架**：scrapy、feapder、pyspider...
+  - ❌ **接口编写**：FastAPI、flask、express...
+
+- 🟩 **[数据处理](/pages/re/)**：
+  - ❌ **数据提取**：re、lxml、BeautifulSoup、GeneralNewsExtractor、Newspaper、Protobuf...
+  - ❌ **数据分析**：wordcloud、jieba、pandas、NumPy、SciPy...
+  - ❌ **制表绘图**：matplotlib、pyecharts、plotly、seaborn...
+  - ❌ **数据存储**：文件存储、MySQL、MongoDB、Redis、SQLite...
+
+---
+
+🙃 长期计划（异想天开）：
+
+- 新一代行为特征、生物特征检测方案；
+- 新一代前端代码防护解决方案。
+
 :::
+
 
 <br/>
 

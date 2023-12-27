@@ -28,148 +28,6 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '目录', link: '/pages/toc/' },
-      {
-        text: '网络请求', link: '/pages/requests/', items: [
-          { 
-            text: '基本请求', items: [
-              { text: 'requests', link: '/pages/requests/' },
-              { text: 'urllib', link: '/pages/urllib/' },
-              { text: 'aiohttp', link: '/pages/aiohttp/' },
-              { text: 'httpx', link: '/pages/httpx/' },
-              { text: 'pyhttpx', link: '/pages/pyhttpx/' },
-              { text: 'tls_client', link: '/pages/tls_client/' },
-              { text: 'curl_cffi', link: '/pages/curl_cffi/' },
-              { text: 'requests_go', link: '/pages/requests_go/' },
-              { text: 'pycurl', link: '/pages/pycurl/' },
-              { text: 'websocket', link: '/pages/websocket/' },
-            ]
-          },
-          {
-            text: '异步协程', items: [
-              { text: 'asyncio', link: '/pages/asyncio/' },
-              { text: 'gevent', link: '/pages/gevent/' },
-            ]
-          },
-          {
-            text: '多线程', items: [
-              { text: 'threading', link: '/pages/threading/' },
-              { text: 'vthread', link: '/pages/vthread/' },
-            ]
-          },
-          {
-            text: '多进程', items: [
-              { text: 'multiprocessing', link: '/pages/multiprocessing/' },
-            ]
-          }
-        ]
-      },
-      {
-        text: '数据处理', link: '/pages/re/', items: [
-          { 
-            text: '数据提取', items: [
-              { text: 're', link: '/pages/re/' },
-              { text: 'lxml', link: '/pages/lxml/' },
-              { text: 'BeautifulSoup', link: '/pages/BeautifulSoup/' },
-              { text: 'pyquery', link: '/pages/pyquery/' },
-              { text: 'selectolax', link: '/pages/selectolax/' }
-            ]
-          },
-          {
-            text: '数据分析', items: [
-              { text: 'wordcloud', link: '/pages/wordcloud/' },
-              { text: 'jieba', link: '/pages/jieba/' },
-              { text: 'pandas', link: '/pages/pandas/' },
-              { text: 'NumPy', link: '/pages/NumPy/' },
-              { text: 'SciPy', link: '/pages/SciPy/' },
-            ]
-          },
-          {
-            text: '制表绘图', items: [
-              { text: 'matplotlib', link: '/pages/matplotlib/' },
-              { text: 'pyecharts', link: '/pages/pyecharts/' },
-              { text: 'plotly', link: '/pages/plotly/' },
-              { text: 'seaborn', link: '/pages/seaborn/' },
-            ]
-          },
-          {
-            text: '数据存储', items: [
-              { text: '文件存储', link: '/pages/file-storage/' },
-              { text: 'MySQL', link: '/pages/MySQL/' },
-              { text: 'MongoDB', link: '/pages/MongoDB/' },
-              { text: 'Redis', link: '/pages/Redis/' },
-              { text: 'SQLite', link: '/pages/SQLite/' },
-            ]
-          },
-        ]
-      },
-      {
-        text: '框架接口', link: '/pages/selenium/', items: [
-          { 
-            text: '自动化框架', items: [
-              { text: 'selenium', link: '/pages/selenium/' },
-              { text: 'pyppeteer', link: '/pages/pyppeteer/' },
-              { text: 'playwright', link: '/pages/playwright/' },
-              { text: 'splash', link: '/pages/splash/' },
-              { text: 'DrissionPage', link: '/pages/DrissionPage/' },
-              { text: 'appium', link: '/pages/appium/' },
-              { text: 'airtest', link: '/pages/airtest/' }
-            ]
-          },
-          {
-            text: '接口编写', items: [
-              { text: 'FastAPI', link: '/pages/FastAPI/' },
-              { text: 'flask', link: '/pages/flask/' },
-              { text: 'express', link: '/pages/express/' },
-            ]
-          },
-          {
-            text: '爬虫框架', items: [
-              { text: 'scrapy', link: '/pages/scrapy/' },
-              { text: 'feapder', link: '/pages/feapder/' },
-              { text: 'pyspider', link: '/pages/pyspider/' },
-            ]
-          },
-        ]
-      },
-      {
-        text: '辅助查询', link: '/pages/js-hook/', items: [
-          { 
-            text: '辅助脚本', items: [
-              { text: 'JS Hook', link: '/pages/js-hook/' },
-              { text: 'Frida API', link: '/pages/frida-api/' },
-              { text: 'babel', link: '/pages/babel/' },
-            ]
-          },
-          {
-            text: '命令查询', items: [
-              { text: 'Linux 命令', link: '/pages/linux/' },
-              { text: 'ADB 命令', link: '/pages/adb/' },
-              { text: 'ARM 指令集', link: '/pages/arm/' },
-              { text: 'Dalvik 指令集', link: '/pages/dalvik/' },
-            ]
-          },
-          {
-            text: '指纹信息', items: [
-              { text: 'CreepJS', link: '/pages/creepjs/' },
-              { text: 'Fingerprint2', link: '/pages/fingerprint2/' },
-              { text: '自动化工具检测', link: '/pages/AHBD/' },
-            ]
-          },
-          {
-            text: '加密算法', items: [
-              { text: 'MD5', link: '/pages/md5/' },
-              { text: 'Base64', link: '/pages/base64/' },
-              { text: 'HMAC', link: '/pages/hmac/' },
-              { text: 'SHA', link: '/pages/sha/' },
-              { text: 'RC4', link: '/pages/rc4/' },
-              { text: 'AES', link: '/pages/aes/' },
-              { text: '3DES', link: '/pages/3des/' },
-              { text: 'DES', link: '/pages/des/' },
-              { text: 'RSA', link: '/pages/rsa/' },
-            ]
-          },
-        ]
-      },
       { 
         text: '验证码', link: '/captcha/', items: [
           // { text: '目录总览', link: '/pages/captcha/'},
@@ -232,6 +90,156 @@ module.exports = {
             { text: 'ARCaptcha', link: '/captcha/arcaptcha/' },
             { text: 'CaptchaFox', link: '/captcha/captchafox/' },
           ]}
+        ]
+      },
+      {
+        text: '辅助查询', link: '/pages/js-hook/', items: [
+          { 
+            text: '辅助脚本', items: [
+              { text: 'JS Hook', link: '/pages/js-hook/' },
+              { text: 'Frida API', link: '/pages/frida-api/' },
+              { text: 'babel', link: '/pages/babel/' },
+            ]
+          },
+          {
+            text: '命令查询', items: [
+              { text: 'Linux 命令', link: '/pages/linux/' },
+              { text: 'ADB 命令', link: '/pages/adb/' },
+              { text: 'ARM 指令集', link: '/pages/arm/' },
+              { text: 'Dalvik 指令集', link: '/pages/dalvik/' },
+            ]
+          },
+          {
+            text: '指纹信息', items: [
+              { text: 'CreepJS', link: '/pages/creepjs/' },
+              { text: 'Fingerprint2', link: '/pages/fingerprint2/' },
+              { text: '自动化工具检测', link: '/pages/AHBD/' },
+            ]
+          },
+          {
+            text: '加密算法', items: [
+              { text: 'MD5', link: '/pages/md5/' },
+              { text: 'Base64', link: '/pages/base64/' },
+              { text: 'HMAC', link: '/pages/hmac/' },
+              { text: 'SHA', link: '/pages/sha/' },
+              { text: 'RC4', link: '/pages/rc4/' },
+              { text: 'AES', link: '/pages/aes/' },
+              { text: '3DES', link: '/pages/3des/' },
+              { text: 'DES', link: '/pages/des/' },
+              { text: 'RSA', link: '/pages/rsa/' },
+            ]
+          },
+        ]
+      },
+      {
+        text: '网络请求', link: '/net/requests/', items: [
+          { 
+            text: '基本请求', items: [
+              { text: 'Python', link: '/net/requests/', items: [
+                { text: 'requests', link: '/net/requests/' },
+                { text: 'urllib', link: '/net/urllib/' },
+                { text: 'aiohttp', link: '/net/aiohttp/' },
+                { text: 'httpx', link: '/net/httpx/' },
+                { text: 'pyhttpx', link: '/net/pyhttpx/' },
+                { text: 'tls_client', link: '/net/tls_client/' },
+                { text: 'curl_cffi', link: '/net/curl_cffi/' },
+                { text: 'requests_go', link: '/net/requests_go/' },
+                { text: 'pycurl', link: '/net/pycurl/' },
+                { text: 'websocket', link: '/net/websocket/' },
+              ]},
+              // { text: 'Golang', link: '/net/requests/', items: [
+              //   { text: 'requests', link: '/net/requests/' },
+              // ]},
+              // { text: 'JavaScript', link: '/net/requests/', items: [
+              //   { text: 'requests', link: '/net/requests/' },
+              // ]},
+            ]
+          },
+          {
+            text: '异步协程', items: [
+              { text: 'asyncio', link: '/pages/asyncio/' },
+              { text: 'gevent', link: '/pages/gevent/' },
+            ]
+          },
+          {
+            text: '多线程', items: [
+              { text: 'threading', link: '/pages/threading/' },
+              { text: 'vthread', link: '/pages/vthread/' },
+            ]
+          },
+          {
+            text: '多进程', items: [
+              { text: 'multiprocessing', link: '/pages/multiprocessing/' },
+            ]
+          }
+        ]
+      },
+      {
+        text: '框架接口', link: '/pages/selenium/', items: [
+          { 
+            text: '自动化框架', items: [
+              { text: 'selenium', link: '/pages/selenium/' },
+              { text: 'pyppeteer', link: '/pages/pyppeteer/' },
+              { text: 'playwright', link: '/pages/playwright/' },
+              { text: 'splash', link: '/pages/splash/' },
+              { text: 'DrissionPage', link: '/pages/DrissionPage/' },
+              { text: 'appium', link: '/pages/appium/' },
+              { text: 'airtest', link: '/pages/airtest/' }
+            ]
+          },
+          {
+            text: '接口编写', items: [
+              { text: 'FastAPI', link: '/pages/FastAPI/' },
+              { text: 'flask', link: '/pages/flask/' },
+              { text: 'express', link: '/pages/express/' },
+            ]
+          },
+          {
+            text: '爬虫框架', items: [
+              { text: 'scrapy', link: '/pages/scrapy/' },
+              { text: 'feapder', link: '/pages/feapder/' },
+              { text: 'pyspider', link: '/pages/pyspider/' },
+            ]
+          },
+        ]
+      },
+      {
+        text: '数据处理', link: '/pages/re/', items: [
+          { 
+            text: '数据提取', items: [
+              { text: 're', link: '/pages/re/' },
+              { text: 'lxml', link: '/pages/lxml/' },
+              { text: 'BeautifulSoup', link: '/pages/BeautifulSoup/' },
+              { text: 'pyquery', link: '/pages/pyquery/' },
+              { text: 'selectolax', link: '/pages/selectolax/' }
+            ]
+          },
+          {
+            text: '数据分析', items: [
+              { text: 'wordcloud', link: '/pages/wordcloud/' },
+              { text: 'jieba', link: '/pages/jieba/' },
+              { text: 'pandas', link: '/pages/pandas/' },
+              { text: 'NumPy', link: '/pages/NumPy/' },
+              { text: 'SciPy', link: '/pages/SciPy/' },
+            ]
+          },
+          {
+            text: '制表绘图', items: [
+              { text: 'matplotlib', link: '/pages/matplotlib/' },
+              { text: 'pyecharts', link: '/pages/pyecharts/' },
+              { text: 'plotly', link: '/pages/plotly/' },
+              { text: 'seaborn', link: '/pages/seaborn/' },
+            ]
+          },
+          {
+            text: '数据存储', items: [
+              { text: '文件存储', link: '/pages/file-storage/' },
+              { text: 'MySQL', link: '/pages/MySQL/' },
+              { text: 'MongoDB', link: '/pages/MongoDB/' },
+              { text: 'Redis', link: '/pages/Redis/' },
+              { text: 'SQLite', link: '/pages/SQLite/' },
+            ]
+          },
         ]
       },
       { text: '报错处理', link: '/pages/error-handling/' },

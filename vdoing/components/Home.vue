@@ -24,8 +24,11 @@
           <p v-if="homeData.tagline" class="description">
             {{ homeData.tagline }}
           </p>
-          <p class="action" v-if="homeData.actionText && homeData.actionLink">
+          <!-- <p class="action" v-if="homeData.actionText && homeData.actionLink">
             <NavLink class="action-button" :item="actionLink" />
+          </p> -->
+          <p class="action" v-if="actions.length">
+            <NavLink class="action-button" :item="action" v-for="action in actions" :key="action.text" />
           </p>
         </header>
 
@@ -234,11 +237,20 @@ export default {
       }
 
     },
-    actionLink() {
-      return {
-        link: this.homeData.actionLink,
-        text: this.homeData.actionText
-      };
+    // 原始方法，单个 action
+    // actionLink() {
+    //   return {
+    //     link: this.homeData.actionLink,
+    //     text: this.homeData.actionText
+    //   };
+    // },
+    actions() {
+      return this.homeData.actions.map(
+        ({ text, link}) => ({
+          text,
+          link
+        })
+      )
     }
   },
   components: { NavLink, MainLayout, PostList, UpdateArticle, BloggerBar, CategoriesBar, TagsBar, Pagination },
@@ -380,6 +392,9 @@ export default {
           border-radius 4px
           transition background-color 0.1s ease
           box-sizing border-box
+          &:not(:first-child) {
+            margin-left: 1.2rem;
+          }
           border-bottom 1px solid darken($accentColor, 10%)
           color #fff
           &:hover
