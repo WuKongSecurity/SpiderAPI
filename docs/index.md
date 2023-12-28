@@ -4,7 +4,7 @@ heroImage: /img/logo.png
 heroText: Spider API
 # tagline: 🚀爬虫逆向常用 API
 actions:
-  - text: 🧑‍💻 查看目录
+  - text: 🚀 查看目录
     link: /pages/toc/
   - text: 🌟 点亮 Star
     link: https://github.com/TRHX/SpiderApi
