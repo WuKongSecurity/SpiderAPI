@@ -55,19 +55,19 @@ config:
   target: _blank  # _self
 
 data:
-  - name: Spider Box
-    desc: 🚀 SpiderBox - 虫盒 - 爬虫逆向资源导航站
+  - name: Spider BOX
+    desc: 🚀 SpiderBOX - 虫盒 - 爬虫逆向资源导航站
     link: https://spiderbox.cn/
     bgColor: '#f1f1f1'
     textColor: '#2A3344'
-  - name: Spider Api
-    desc: 🚀 SpiderApi - 虫术 - 爬虫逆向常用 API
+  - name: Spider API
+    desc: 🚀 SpiderAPI - 虫术 - 爬虫逆向常用 API
     link: https://spiderapi.cn/
     bgColor: '#F0DFB1'
     textColor: '#2A3344'
-  - name: Spider Law (待定)
-    desc: 🚀 SpiderLaw - 虫规 - 数据采集合规性建设
-    link: https://github.com/TRHX/SpiderLaw
+  - name: Spider GRC
+    desc: 🚀 SpiderGRC - 虫规 - 数据采集合规性建设
+    link: https://spidergrc.cn/
     bgColor: '#DFEEE7'
     textColor: '#2A3344'
 ```
