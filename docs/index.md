@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/logo.png
-heroText: Spider API
+heroText: SPIDER API
 # tagline: 🚀爬虫逆向常用 API
 actions:
   - text: 🚀 查看目录
@@ -18,7 +18,7 @@ bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | no
 features: # 可选的
   - title: 网络请求
     details: 各种语言、各种框架、各种库的 GET、POST、添加代理、修改 TLS 指纹等
-    link: /pages/requests/
+    link: /net/requests/
     # imgUrl: https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200122153807.jpg
   - title: 数据处理
     details: 数据解析提取、清洗去重、自然语言处理、分词统计、绘图制表、各种数据库存储等
