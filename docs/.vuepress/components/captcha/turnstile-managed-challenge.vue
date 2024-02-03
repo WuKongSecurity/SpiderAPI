@@ -1,22 +1,20 @@
 <template>
   <div style="text-align: center">
     <h1>Cloudflare Turnstile Demo <Badge text="Managed Challenge" type="tip" vertical="top"/></h1>
-    <form id="form">
-      <br>
-      <div>
-        <input type="text" :placeholder="'\ue614 请输入账号'" id="username" maxlength="" class="iconfont cf-input">
-      </div>
-      <br>
-      <div>
-        <input type="text" :placeholder="'\ue69c 请输入密码'" id="password" maxlength="" class="iconfont cf-input">
-      </div>
-      <br>
-      <div id="cf-captcha">
-        <p id="cf-wait" class="cf-show">正在加载验证码......<br>（若长时间未加载，请刷新网页并科学访问）</p>
-      </div>
-      <br>
-      <input class="cf-submit2" id="submit" type="submit" value="立即登录">
-    </form>
+    <br>
+    <div>
+      <input type="text" :placeholder="'\ue614 请输入账号'" id="username" maxlength="" class="iconfont cf-input">
+    </div>
+    <br>
+    <div>
+      <input type="text" :placeholder="'\ue69c 请输入密码'" id="password" maxlength="" class="iconfont cf-input">
+    </div>
+    <br>
+    <div id="cf-captcha">
+      <p id="cf-wait" class="cf-show">正在加载验证码......<br>（若长时间未加载，请刷新网页并科学访问）</p>
+    </div>
+    <br>
+    <input class="cf-submit2" id="submit" type="submit" value="立即登录">
   </div>
 </template>
 <script>
@@ -55,9 +53,8 @@ export default {
         dataType: 'json',
         data: result,
         success: function (data) {
-          if (data.result === 'success') {
+          if (data.status === 'success') {
             alert('登录成功！');
-            location.reload();
           } else if (data.result === 'fail') {
             alert('登录失败，请重新验证！');
           }
