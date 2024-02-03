@@ -2,12 +2,12 @@
 home: true
 heroImage: /img/logo.png
 heroText: SPIDER API
-# tagline: 🚀爬虫逆向常用 API
-actions:
-  - text: 🚀 查看目录
-    link: /pages/toc/
-  - text: 🌟 点亮 Star
-    link: https://github.com/TRHX/SpiderApi
+tagline: 🚀SpiderAPI - 虫术 - 爬虫逆向常用 API
+#actions:
+#  - text: 🚀 查看目录
+#    link: /pages/toc/
+#  - text: 🌟 点亮 Star
+#    link: https://github.com/TRHX/SpiderApi
 
 # actionText: ⛵️查看目录
 # actionLink: /pages/toc/
@@ -73,15 +73,51 @@ data:
 ```
 :::
 
+<br/>
+
+::: danger ❗❗❗注意
+本项在业余时间不断完善，仍处于初期建设当中，面向所有工程师征集常用工具/代码，**所有内容未最终确定，随时可能变化！**
+:::
+
 <p align="center">
   <a class="become-sponsor" href="/pages/sponsor/">支持赞助我们</a>
 </p>
 
-::: danger ❗❗❗注意
-本项目由 <a href="https://www.itbob.cn" target="_blank">BOB</a> 在业余时间完善，仍处于初期建设当中，面向所有工程师征集常用工具/代码，**所有内容未最终确定，随时可能变化！**
+## 🎉 特别致谢
+
+::: cardList
+```yaml
+- name: 李玺
+  desc: 中科大数据研究院高级工程师
+  avatar: /img/lx.jpg
+  link: https://blog.csdn.net/weixin_43582101
+  bgColor: '#FCDBA0' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#A05F2C' # 可选，默认var(--textColor)
+- name: geekbyte
+  desc: 移动安全、tls/ja3指纹，公众号编角料
+  avatar: /img/geekbyte.jpg
+  link: https://blog.csdn.net/Y_morph
+  bgColor: '#CBEAFA'
+  textColor: '#6854A1'
+- name: 十一姐
+  desc: JS 逆向，公众号逆向OneByOne
+  avatar: /img/shiyi.jpg
+  link: https://blog.csdn.net/weixin_43411585
+  bgColor: '#f1f1f1'
+  textColor: '#2A3344'
+```
 :::
 
-<br>
+<br/>
+
+## ⚡️更新日志
+
+- `2024-01-21`：增加 Frida API, ADB 命令查询；
+- `2023-12-06`：增加自动化工具检测（AHBD）页面；
+- `2023-11-10`：增加浏览器指纹 Fingerprint2 检测页面；
+- `2023-10-20`：增加 Captcha 验证码 demo 页面；
+- `2023-10-16`：增加 JS Hook 脚本；
+- `2023-08-13`：Spider BOX、Spider API、Spider GRC 正式立项。
 
 ::: details 🏗️ TODO 进度表
 
@@ -155,59 +191,7 @@ data:
 
 :::
 
-
 <br/>
-
-## 🎉 特别致谢
-
-::: cardList
-```yaml
-- name: 李玺
-  desc: 中科大数据研究院高级工程师
-  avatar: /img/lx.jpg
-  link: https://blog.csdn.net/weixin_43582101
-  bgColor: '#FCDBA0' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
-  textColor: '#A05F2C' # 可选，默认var(--textColor)
-- name: geekbyte
-  desc: 移动安全、tls/ja3指纹，公众号编角料
-  avatar: /img/geekbyte.jpg
-  link: https://blog.csdn.net/Y_morph
-  bgColor: '#CBEAFA'
-  textColor: '#6854A1'
-- name: 十一姐
-  desc: JS 逆向，公众号逆向OneByOne
-  avatar: /img/shiyi.jpg
-  link: https://blog.csdn.net/weixin_43411585
-  bgColor: '#f1f1f1'
-  textColor: '#2A3344'
-```
-:::
-
-<br/>
-
-<!-- ## ⚡️未来...
-
-::: tip
-期待 [VuePress v2.0](https://github.com/vuepress/vuepress-next) 以及 [VitePress](https://github.com/vuejs/vitepress) 的正式发布...
-
-届时，VuePress 1.x 编译慢的缺点将得到极大的改善。我将会视情况把主题升级至 VuePress v2.0 或 VitePress。还希望大家多多 [:sparkling_heart:支持](/pages/1b12ed/) 哟，持续关注吧~
-::: -->
-
-<!-- <br/> -->
-
-<!-- ## 💎 公众号
-`有趣研究社`是本人对各种有趣的、好玩的、沙雕的创意和想法以在线小网站或者文章的形式表达出来，比如：
-- [小霸王游戏机](https://game.xugaoyi.com)
-- [爱国头像生成器](https://avatar.xugaoyi.com/)
-- [到账语音生成器](https://zfb.xugaoyi.com/)
-
-还有更多好玩的等你去探索吧~
-
-::: center
-<img src="https://fastly.jsdelivr.net/gh/xugaoyi/image_store@master/blog/qrcode.zdqv9mlfc0g.jpg"  style="width:190px;" />
-:::
-
-<br/> -->
 
 ## 💡 反馈交流
 

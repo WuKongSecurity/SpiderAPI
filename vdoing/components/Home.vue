@@ -27,7 +27,7 @@
           <!-- <p class="action" v-if="homeData.actionText && homeData.actionLink">
             <NavLink class="action-button" :item="actionLink" />
           </p> -->
-          <p class="action" v-if="actions.length">
+          <p class="action" v-if="actions">
             <NavLink class="action-button" :item="action" v-for="action in actions" :key="action.text" />
           </p>
         </header>
@@ -245,12 +245,14 @@ export default {
     //   };
     // },
     actions() {
-      return this.homeData.actions.map(
-        ({ text, link}) => ({
-          text,
-          link
-        })
-      )
+      if (this.homeData.actions) {
+        return this.homeData.actions.map(
+          ({ text, link}) => ({
+            text,
+            link
+          })
+        )
+      }
     }
   },
   components: { NavLink, MainLayout, PostList, UpdateArticle, BloggerBar, CategoriesBar, TagsBar, Pagination },

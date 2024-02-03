@@ -6,7 +6,7 @@ module.exports = {
   // theme: 'vdoing', // 使用依赖包主题 npm install vuepress-theme-vdoing
   theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
-  title: "SpiderApi - 虫术 - 爬虫逆向常用 API",
+  title: "SpiderAPI - 虫术 - 爬虫逆向常用 API",
   description: 'SpiderAPI - 虫术 - 汇总各种爬虫逆向常用 API，涉及各种网络请求库，自动化框架，爬虫框架，HOOK 脚本，ADB 命令等。',
   base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
@@ -246,6 +246,7 @@ module.exports = {
       { text: '赞助', link: '/pages/sponsor/' },
     ],
     sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+    leftTitle: '虫术',  // 左上角 title
     logo: '/img/logo.png', // 导航栏logo
     repo: 'TRHX/SpiderApi', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
