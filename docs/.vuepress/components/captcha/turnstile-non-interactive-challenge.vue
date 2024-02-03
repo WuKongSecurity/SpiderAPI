@@ -1,7 +1,7 @@
 <template>
   <div style="text-align: center">
     <br>
-    <h1>Cloudflare Turnstile Demo <Badge text="Managed Challenge" type="tip" vertical="top"/></h1>
+    <h1>Cloudflare Turnstile Demo <Badge text="Non-Interactive Challenge" type="tip" vertical="top"/></h1>
     <br>
     <div>
       <input type="text" :placeholder="'\ue614 请输入账号'" id="username" maxlength="" class="iconfont cf-input">
@@ -30,7 +30,7 @@ export default {
     window.onloadTurnstileCallback = function () {
       $('#cf-wait').hide();
       turnstile.render('#cf-captcha', {
-        sitekey: '0x4AAAAAAARHeKJh3hsrBCbZ',
+        sitekey: '0x4AAAAAAARMZX7AASUic4J4',
         callback: function(token) {
           console.log(`Challenge Success ${token}`);
           window.turnstileManagedToken = token;
@@ -49,7 +49,7 @@ export default {
       result['cf-turnstile-response'] = window.turnstileManagedToken;
 
       $.ajax({
-        url: 'https://api.spiderapi.cn/turnstile-managed/login',
+        url: 'https://api.spiderapi.cn/turnstile-non-interactive/login',
         type: 'post',
         dataType: 'json',
         data: result,

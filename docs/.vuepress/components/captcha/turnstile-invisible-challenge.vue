@@ -1,7 +1,7 @@
 <template>
   <div style="text-align: center">
     <br>
-    <h1>Cloudflare Turnstile Demo <Badge text="Managed Challenge" type="tip" vertical="top"/></h1>
+    <h1>Cloudflare Turnstile Demo <Badge text="Invisible Challenge" type="tip" vertical="top"/></h1>
     <br>
     <div>
       <input type="text" :placeholder="'\ue614 请输入账号'" id="username" maxlength="" class="iconfont cf-input">
@@ -28,9 +28,11 @@ export default {
     document.head.appendChild(script1);
 
     window.onloadTurnstileCallback = function () {
-      $('#cf-wait').hide();
+      // const cfWaitParagraph = document.querySelector('#cf-wait');
+      // cfWaitParagraph.textContent = '无感模式加载完毕<br>Invisible Challenge';
+      $('#cf-wait').html('无感模式加载完毕<br>Cloudflare Turnstile Invisible Challenge')
       turnstile.render('#cf-captcha', {
-        sitekey: '0x4AAAAAAARHeKJh3hsrBCbZ',
+        sitekey: '0x4AAAAAAARMkXOUcO6uqu14',
         callback: function(token) {
           console.log(`Challenge Success ${token}`);
           window.turnstileManagedToken = token;
@@ -49,7 +51,7 @@ export default {
       result['cf-turnstile-response'] = window.turnstileManagedToken;
 
       $.ajax({
-        url: 'https://api.spiderapi.cn/turnstile-managed/login',
+        url: 'https://api.spiderapi.cn/turnstile-invisible/login',
         type: 'post',
         dataType: 'json',
         data: result,
