@@ -46,7 +46,7 @@
                 :src="$withBase(feature.imgUrl)"
                 :alt="feature.title"
               />
-              <h2>{{ feature.title }}</h2>
+              <h2 class="home-h2">{{ feature.title }}</h2>
               <p>{{ feature.details }}</p>
             </router-link>
             <a v-else href="javascript:;">
@@ -56,7 +56,7 @@
                 :src="$withBase(feature.imgUrl)"
                 :alt="feature.title"
               />
-              <h2>{{ feature.title }}</h2>
+              <h2 class="home-h2">{{ feature.title }}</h2>
               <p>{{ feature.details }}</p>
             </a>
           </div>
@@ -82,7 +82,7 @@
                     :src="$withBase(feature.imgUrl)"
                     :alt="feature.title"
                   />
-                  <h2>{{ feature.title }}</h2>
+                  <h2 class="home-h2">{{ feature.title }}</h2>
                   <p>{{ feature.details }}</p>
                 </router-link>
                 <a v-else href="javascript:;">
@@ -92,7 +92,7 @@
                     :src="$withBase(feature.imgUrl)"
                     :alt="feature.title"
                   />
-                  <h2>{{ feature.title }}</h2>
+                  <h2 class="home-h2">{{ feature.title }}</h2>
                   <p>{{ feature.details }}</p>
                 </a>
               </div>

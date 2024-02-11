@@ -75,42 +75,15 @@ data:
 
 <br/>
 
+<!--<p align="center">
+  <a class="become-sponsor" href="/pages/sponsor/">支持赞助我们</a>
+</p>-->
+
+## ⚡️更新日志
+
 ::: danger ❗❗❗注意
 本项在业余时间不断完善，仍处于初期建设当中，面向所有工程师征集常用工具/代码，**所有内容未最终确定，随时可能变化！**
 :::
-
-<p align="center">
-  <a class="become-sponsor" href="/pages/sponsor/">支持赞助我们</a>
-</p>
-
-## 🎉 特别致谢
-
-::: cardList
-```yaml
-- name: 李玺
-  desc: 中科大数据研究院高级工程师
-  avatar: /img/lx.jpg
-  link: https://blog.csdn.net/weixin_43582101
-  bgColor: '#FCDBA0' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
-  textColor: '#A05F2C' # 可选，默认var(--textColor)
-- name: geekbyte
-  desc: 移动安全、tls/ja3指纹，公众号编角料
-  avatar: /img/geekbyte.jpg
-  link: https://blog.csdn.net/Y_morph
-  bgColor: '#CBEAFA'
-  textColor: '#6854A1'
-- name: 十一姐
-  desc: JS 逆向，公众号逆向OneByOne
-  avatar: /img/shiyi.jpg
-  link: https://blog.csdn.net/weixin_43411585
-  bgColor: '#f1f1f1'
-  textColor: '#2A3344'
-```
-:::
-
-<br/>
-
-## ⚡️更新日志
 
 - `2024-01-21`：增加 Frida API, ADB 命令查询；
 - `2023-12-06`：增加自动化工具检测（AHBD）页面；
@@ -119,9 +92,10 @@ data:
 - `2023-10-16`：增加 JS Hook 脚本；
 - `2023-08-13`：Spider BOX、Spider API、Spider GRC 正式立项。
 
+<!--
 ::: details 🏗️ TODO 进度表
 
-<!-- <table border="1" align="center">
+<table border="1" align="center">
   <thead>
     <tr>
       <th>分类</th>
@@ -153,7 +127,7 @@ data:
     <td>✅</td>
   </tr>
   </tbody>
-</table> -->
+</table>
 
 - ✅ **[验证码](/captcha/)**：
   - ✅ **国内验证码**：顶象、数美、易盾、极验、阿里云云盾、腾讯天御、小红书、小盾...
@@ -190,7 +164,38 @@ data:
 - 新一代前端代码防护解决方案。
 
 :::
+-->
 
+<br/>
+
+## 🎉 特别致谢
+
+::: cardList
+```yaml
+- name: 李玺
+  desc: 中科大数据研究院高级工程师
+  avatar: /img/lx.jpg
+  link: https://blog.csdn.net/weixin_43582101
+  bgColor: '#FCDBA0' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#A05F2C' # 可选，默认var(--textColor)
+- name: geekbyte
+  desc: 移动安全、tls/ja3指纹，公众号编角料
+  avatar: /img/geekbyte.jpg
+  link: https://blog.csdn.net/Y_morph
+  bgColor: '#CBEAFA'
+  textColor: '#6854A1'
+- name: 十一姐
+  desc: JS 逆向，公众号逆向OneByOne
+  avatar: /img/shiyi.jpg
+  link: https://blog.csdn.net/weixin_43411585
+  bgColor: '#f1f1f1'
+  textColor: '#2A3344'
+```
+:::
+
+<img src="/img/ad@1200x150.png" alt="test" class="no-zoom" style="width: 100%;border-radius: 10px;">
+
+<br/>
 <br/>
 
 ## 💡 反馈交流
@@ -222,7 +227,7 @@ data:
 
 
 <!-- AD -->
-<div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
+<!-- <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
 <style>
   .page-wwads{
     width:100%!important;
@@ -243,4 +248,4 @@ data:
     padding-top: 5px;
     display: block;
   }
-</style>
+</style> -->
