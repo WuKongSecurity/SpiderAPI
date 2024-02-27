@@ -19,7 +19,7 @@
  */
 
 
-module.exports = {
+  //  module.exports = {
   // 万维广告
   // pageT: `
   //   <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
@@ -46,10 +46,10 @@ module.exports = {
   // </style>
   // `,
   // 赞助商广告
-  sidebarT: `
-    <img src="https://liteflow.cc/img/donate/chicheng-banner.png" alt="test" class="no-zoom" style="width: 100%;border-radius: 10px;">
-    <!--<p style="text-align: center;margin: 0;color: #999;font-size: 12px;">(进入注册为作者充电)</p>-->`,
-
+  //sidebarT: `
+  //  <img src="https://liteflow.cc/img/donate/chicheng-banner.png" alt="test" class="no-zoom" style="width: 100%;border-radius: 10px;">
+  //  <!--<p style="text-align: center;margin: 0;color: #999;font-size: 12px;">(进入注册为作者充电)</p>-->`,
+  //
   // pageB: `
   //  <a href="http://apifox.cn/a103xugaoyi" target="_blank">
   //   <img src="https://jsd.cdn.zzko.cn/gh/xugaoyi/blog-gitalk-comment@master/img/431669861564_.2470ykdcpbds.jpg" alt="test" class="no-zoom" style="width: 100%;border-radius: 10px;">
@@ -69,7 +69,7 @@ module.exports = {
   //     }
   //   </style>
   // `
-}
+  //}
 
 
 // module.exports = {

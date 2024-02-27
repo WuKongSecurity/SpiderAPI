@@ -193,7 +193,7 @@ data:
 ```
 :::
 
-<img src="/img/ad@1200x150.png" alt="test" class="no-zoom" style="width: 100%;border-radius: 10px;">
+<!--<img src="/img/ad@1200x150.png" alt="test" class="no-zoom" style="width: 100%;border-radius: 10px;">-->
 
 <br/>
 <br/>
