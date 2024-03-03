@@ -118,15 +118,18 @@ module.exports = {
           },
           {
             text: '加密算法', items: [
-              { text: 'MD5', link: '/pages/md5/' },
+              { text: 'URL', link: '/pages/url/' },
+              { text: 'Unicode', link: '/pages/unicode/' },
               { text: 'Base64', link: '/pages/base64/' },
+              { text: 'MD5', link: '/pages/md5/' },
               { text: 'HMAC', link: '/pages/hmac/' },
               { text: 'SHA', link: '/pages/sha/' },
-              { text: 'RC4', link: '/pages/rc4/' },
-              { text: 'AES', link: '/pages/aes/' },
-              { text: '3DES', link: '/pages/3des/' },
-              { text: 'DES', link: '/pages/des/' },
               { text: 'RSA', link: '/pages/rsa/' },
+              { text: 'AES', link: '/pages/aes/' },
+              { text: 'DES', link: '/pages/des/' },
+              { text: '3DES', link: '/pages/3des/' },
+              { text: 'RC4', link: '/pages/rc4/' },
+              { text: 'SM', link: '/pages/sm/' },
             ]
           },
         ]
@@ -389,7 +392,16 @@ module.exports = {
           return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
         },
       }
-    ]
+    ],
+    [
+      'vuepress-plugin-mathjax', // markdown数学公式 https://github.com/vuepress/vuepress-plugin-mathjax
+      {
+        target: 'chtml',
+        macros: {
+          '*': '\\times',
+        },
+      },
+    ],
   ],
 
   markdown: {

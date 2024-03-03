@@ -25,6 +25,7 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
+    "vuepress-plugin-mathjax": "^1.2.8",
     "vuepress-plugin-sitemap": "^2.3.1"
   }
 }
