@@ -221,9 +221,9 @@ data:
   </tbody>
 </table> -->
 
-| <img :src="$withBase('/img/qrcode/wechat.jpg')" alt="站长微信 (备注来意)" width=180> | <img :src="$withBase('/img/qrcode/gzh.jpg')" alt="站长公众号 (虫技)" width=180>| <img :src="$withBase('/img/qrcode/qq.jpg')" alt="QQ 群: 694387113" width=180> |
-| :---: | :---: | :---: |
-| 站长微信 (备注来意) | 站长公众号 (虫技) | QQ交流群 (941013658) |
+| <a :href="$withBase('/img/qrcode/wechat.png')" target="_blank"><img :src="$withBase('/img/qrcode/wechat.png')" class="no-zoom" alt="站长微信 (备注来意)" width=180></a> | <a :href="$withBase('/img/qrcode/gzh.png')" target="_blank"><img :src="$withBase('/img/qrcode/gzh.png')" class="no-zoom" alt="站长公众号 (虫技)" width=180></a> | <a :href="$withBase('/img/qrcode/qq.png')" target="_blank"><img :src="$withBase('/img/qrcode/qq.png')" class="no-zoom" alt="QQ 群: 694387113" width=180></a> |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                           站长微信 (备注来意)                                                                           |                                                                        站长公众号 (虫技)                                                                        |                                                                      QQ交流群 (941013658)                                                                      |
 
 
 <!-- AD -->
