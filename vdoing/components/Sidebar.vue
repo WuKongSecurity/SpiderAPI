@@ -97,7 +97,7 @@ export default {
     margin-bottom -0.5rem
     font-size 0.85rem
     &.sidebar-slot-top
-      padding 1.5rem 1.5rem 0
+      padding 1.0rem 1.0rem 0
     &.sidebar-slot-bottom
       padding 0 1.5rem 1.5rem
 @media (max-width $MQMobile)

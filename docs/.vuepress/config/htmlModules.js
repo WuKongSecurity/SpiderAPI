@@ -19,57 +19,60 @@
  */
 
 
-   module.exports = {
-  // 万维广告
-  // pageT: `
-  //   <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
-  //   <style>
-  //     .page-wwads{
-  //       width:100%!important;
-  //       min-height: 0;
-  //       margin: 0;
-  //     }
-  //     .page-wwads .wwads-img img{
-  //       width:80px!important;
-  //     }
-  //     .page-wwads .wwads-poweredby{
-  //       width: 40px;
-  //       position: absolute;
-  //       right: 25px;
-  //       bottom: 3px;
-  //     }
-  //     .wwads-content .wwads-text, .page-wwads .wwads-text{
-  //       height: 100%;
-  //       padding-top: 5px;
-  //       display: block;
-  //     }
-  // </style>
-  // `,
-  // 赞助商广告
-  sidebarT: `
-   <img src="https://liteflow.cc/img/donate/chicheng-banner.png" alt="test" class="no-zoom" style="width: 100%;border-radius: 10px;">
-   <!--<p style="text-align: center;margin: 0;color: #999;font-size: 12px;">(进入注册为作者充电)</p>-->`,
+module.exports = {
+    // 万维广告
+    // pageT: `
+    //   <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
+    //   <style>
+    //     .page-wwads{
+    //       width:100%!important;
+    //       min-height: 0;
+    //       margin: 0;
+    //     }
+    //     .page-wwads .wwads-img img{
+    //       width:80px!important;
+    //     }
+    //     .page-wwads .wwads-poweredby{
+    //       width: 40px;
+    //       position: absolute;
+    //       right: 25px;
+    //       bottom: 3px;
+    //     }
+    //     .wwads-content .wwads-text, .page-wwads .wwads-text{
+    //       height: 100%;
+    //       padding-top: 5px;
+    //       display: block;
+    //     }
+    // </style>
+    // `,
+    // 赞助商广告
+    sidebarT: `
+    <a href="https://get.brightdata.com/17arn8" target="_blank">
+        <img src="/img/ad_brightdata.png" alt="bright data" class="no-zoom" style="width: 100%;border-radius: 5px;">
+    </a>
+    <p style="text-align: center;margin: 0;color: #999;font-size: 12px;">(进入注册为作者充电)</p>
+    `,
 
-  // pageB: `
-  //  <a href="http://apifox.cn/a103xugaoyi" target="_blank">
-  //   <img src="https://jsd.cdn.zzko.cn/gh/xugaoyi/blog-gitalk-comment@master/img/431669861564_.2470ykdcpbds.jpg" alt="test" class="no-zoom" style="width: 100%;border-radius: 10px;">
-  //   <!--<p style="text-align: center;margin: 0;color: #999;font-size: 12px;">(进入注册为作者充电)</p>-->
-  // </a>
-  // `,
+    // pageB: `
+    //  <a href="http://apifox.cn/a103xugaoyi" target="_blank">
+    //   <img src="https://jsd.cdn.zzko.cn/gh/xugaoyi/blog-gitalk-comment@master/img/431669861564_.2470ykdcpbds.jpg" alt="test" class="no-zoom" style="width: 100%;border-radius: 10px;">
+    //   <!--<p style="text-align: center;margin: 0;color: #999;font-size: 12px;">(进入注册为作者充电)</p>-->
+    // </a>
+    // `,
 
-  // windowRB: `
-  //   <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
-  //   min-width: auto;min-height:auto;"></div>
-  //   <style>
-  //     .windowRB{ padding: 0;}
-  //     .windowRB .wwads-img{margin-top: 10px;}
-  //     .windowRB .wwads-content{margin: 0 10px 10px 10px;}
-  //     .custom-html-window-rb .close-but{
-  //       display: none;
-  //     }
-  //   </style>
-  // `
-  }
+    // windowRB: `
+    //   <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
+    //   min-width: auto;min-height:auto;"></div>
+    //   <style>
+    //     .windowRB{ padding: 0;}
+    //     .windowRB .wwads-img{margin-top: 10px;}
+    //     .windowRB .wwads-content{margin: 0 10px 10px 10px;}
+    //     .custom-html-window-rb .close-but{
+    //       display: none;
+    //     }
+    //   </style>
+    // `
+}
 
 
 // module.exports = {
