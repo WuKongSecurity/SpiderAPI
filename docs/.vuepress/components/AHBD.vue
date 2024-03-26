@@ -39,9 +39,9 @@ export default {
         script1.src = 'https://lib.baomitu.com/modernizr/latest/modernizr.min.js';
         script1.async = true;
         document.head.appendChild(script1);
-        
+
         const script2 = document.createElement('script');
-        script2.src = 'https://cdn.itbob.cn/spiderapi/detection.js';
+        script2.src = 'https://cdn.itbob.cn/spiderapi/detection.0.0.2.js';
         script2.async = true;
         document.head.appendChild(script2);
 
