@@ -50,7 +50,7 @@ module.exports = {
     <a href="https://www.qg.net/product/proxyip.html?source=spiderapi-s" target="_blank">
         <img src="https://static.spiderapi.cn/spiderbox/images/ads/qg2.jpg" alt="bright data" class="no-zoom" style="width: 100%;border-radius: 5px;">
     </a>
-    <a href="https://get.brightdata.com/17arn8" target="_blank">
+    <a href="https://get.brightdata.com/proxyb" target="_blank">
         <img src="https://static.spiderapi.cn/spiderbox/images/ads/brightdata2.png" alt="bright data" class="no-zoom" style="width: 100%;border-radius: 5px;">
     </a>
     <p style="text-align: center;margin: 0;color: #999;font-size: 12px;">(进入注册为作者充电)</p>
