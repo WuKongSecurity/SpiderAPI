@@ -7,7 +7,7 @@ tagline: 🚀SpiderAPI - 虫术 - 爬虫逆向常用 API
 #  - text: 🚀 查看目录
 #    link: /pages/toc/
 #  - text: 🌟 点亮 Star
-#    link: https://github.com/TRHX/SpiderApi
+#    link: https://github.com/TRHX/SpiderAPI
 
 # actionText: ⛵️查看目录
 # actionLink: /pages/toc/
@@ -200,7 +200,7 @@ data:
 
 ## 💡 反馈交流
 
-对本站有任何问题和想法，请给我提 [Issue](https://github.com/TRHX/SpiderApi/issues)。技术交流、商务合作、广告赞助可以通过以下方式联系我们：
+对本站有任何问题和想法，请给我提 [Issue](https://github.com/TRHX/SpiderAPI/issues)。技术交流、商务合作、广告赞助可以通过以下方式联系我们：
 
 <!-- <table>
   <tbody>

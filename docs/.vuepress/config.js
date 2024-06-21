@@ -28,7 +28,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '目录', link: '/pages/toc/' },
-      { 
+      {
         text: '验证码', link: '/captcha/', items: [
           // { text: '目录总览', link: '/pages/captcha/'},
           { text: '国内验证码', items: [
@@ -94,7 +94,7 @@ module.exports = {
       },
       {
         text: '辅助查询', link: '/pages/js-hook/', items: [
-          { 
+          {
             text: '辅助脚本', items: [
               { text: 'JS Hook', link: '/pages/js-hook/' },
               { text: 'Frida API', link: '/pages/frida-api/' },
@@ -136,7 +136,7 @@ module.exports = {
       },
       {
         text: '网络请求', link: '/net/requests/', items: [
-          { 
+          {
             text: '基本请求', items: [
               { text: 'Python', link: '/net/requests/', items: [
                 { text: 'requests', link: '/net/requests/' },
@@ -179,7 +179,7 @@ module.exports = {
       },
       {
         text: '框架接口', link: '/pages/selenium/', items: [
-          { 
+          {
             text: '自动化框架', items: [
               { text: 'selenium', link: '/pages/selenium/' },
               { text: 'pyppeteer', link: '/pages/pyppeteer/' },
@@ -208,7 +208,7 @@ module.exports = {
       },
       {
         text: '数据处理', link: '/pages/re/', items: [
-          { 
+          {
             text: '数据提取', items: [
               { text: 're', link: '/pages/re/' },
               { text: 'lxml', link: '/pages/lxml/' },
@@ -251,11 +251,11 @@ module.exports = {
     sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     leftTitle: '虫术',  // 左上角 title
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'TRHX/SpiderApi', // 导航栏右侧生成Github链接
+    repo: 'TRHX/SpiderAPI', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
-    docsRepo: "TRHX/SpiderApi",
+    docsRepo: "TRHX/SpiderAPI",
     docsBranch: 'main',
     docsDir: 'docs', // 编辑的文件夹
     editLinks: true, // 编辑链接
@@ -314,7 +314,7 @@ module.exports = {
     //   <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3FpCxw5JhIELmjz2/quote.js?theme=#666666,#333333,#666666,#007BFF,#FFFFFF,#1690FF,13&f=12&display=0,0,0,1,0,1,0,1"></script>
     //   `,
     // },
-    
+
     htmlModules,
   },
 
