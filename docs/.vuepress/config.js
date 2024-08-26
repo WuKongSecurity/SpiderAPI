@@ -14,8 +14,6 @@ module.exports = {
     ['meta', { name: 'keywords', content: 'spiderapi,jsvmp,frida,spider,api,hook,adb' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     ['meta', { name: 'baidu-site-verification', content: 'codeva-L7Nb1StNAA' }],                                        // 百度搜索验证
-    // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }],                              // 广告相关
-    // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }],                            // 广告相关
     ['script', { src: '//sdk.51.la/js-sdk-pro.min.js', type: 'text/javascript', id: 'LA_COLLECT', charset: 'UTF-8' }],  // 51.la 网站统计
     ['script', { src: 'https://lib.baomitu.com/jquery/1.9.1/jquery.min.js', type: 'text/javascript' }],                 // jquery
     ['script', { src: '/js/spiderapi.js', type: 'text/javascript' }],                                                   // 自定义 JS
@@ -251,11 +249,11 @@ module.exports = {
     sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     leftTitle: '虫术',  // 左上角 title
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'TRHX/SpiderAPI', // 导航栏右侧生成Github链接
+    repo: 'WuKongSecurity/SpiderAPI', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
-    docsRepo: "TRHX/SpiderAPI",
+    docsRepo: "WuKongSecurity/SpiderAPI",
     docsBranch: 'main',
     docsDir: 'docs', // 编辑的文件夹
     editLinks: true, // 编辑链接
