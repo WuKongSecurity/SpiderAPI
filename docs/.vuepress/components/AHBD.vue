@@ -41,7 +41,7 @@ export default {
         document.head.appendChild(script1);
 
         const script2 = document.createElement('script');
-        script2.src = 'https://cdn.itbob.cn/spiderapi/detection.0.0.2.js';
+        script2.src = 'https://static.spiderapi.cn/spiderdoc/js/detection.0.0.2.js';
         script2.async = true;
         document.head.appendChild(script2);
 

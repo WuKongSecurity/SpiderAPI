@@ -12,15 +12,15 @@
     </div>
     <!--Vdoing主题遵循MIT协议，完全开源且免费。如果您对主题的修改并不大，希望您保留主题的链接。-->
     <span>
-      <a href="https://beian.miit.gov.cn/" target="_blank"><img src="https://cdn.itbob.cn/img/footer/icp_48x48.png" alt="ICP 备案" style="width:20px; height:auto; margin-bottom:-2px"> 鄂ICP备19003281号-9</a>丨
-      <a href="https://beian.mps.gov.cn/" target="_blank"><img src="https://cdn.itbob.cn/img/footer/mps_48x48.png" alt="MPS 公网安备" style="width:auto; height:20px; margin-bottom:-4px"> 鄂公网安备42280202422959</a>丨
-      <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src="https://cdn.itbob.cn/img/footer/vue_48x48.png" alt="Theme by Vdoing" style="width:18px; height:auto; margin-bottom:-4px"> Theme Vdoing</a>丨
-      <a href="https://cloudbase.net/" target="_blank"><img src="https://cdn.itbob.cn/img/footer/cloudbase.png" alt="云开发 CloudBase" style="width:22px; height:auto; margin-bottom:-2px"> CloudBase</a>丨
+      <a href="https://beian.miit.gov.cn/" target="_blank"><img src="https://static.spiderapi.cn/public/images/logo/icp_48x48.png" alt="ICP 备案" style="width:20px; height:auto; margin-bottom:-2px"> 鄂ICP备19003281号-9</a>丨
+      <a href="https://beian.mps.gov.cn/" target="_blank"><img src="https://static.spiderapi.cn/public/images/logo/mps_48x48.png" alt="MPS 公网安备" style="width:auto; height:20px; margin-bottom:-4px"> 鄂公网安备42280202422959</a>丨
+      <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src="https://static.spiderapi.cn/public/images/logo/vue_48x48.png" alt="Theme by Vdoing" style="width:18px; height:auto; margin-bottom:-4px"> Theme Vdoing</a>丨
+      <a href="https://cloudbase.net/" target="_blank"><img src="https://static.spiderapi.cn/public/images/logo/cloudbase.png" alt="云开发 CloudBase" style="width:22px; height:auto; margin-bottom:-2px"> CloudBase</a>丨
       <a href="https://v6.51.la/land/3FcHt9RWSQ8XvN5u" target="_blank"><img src="https://sdk.51.la/icon/1-1.png" alt="51la 网站统计" style="width:auto; height:12px; margin-bottom:-1px"></a>
     </span>
     <br/>
     <br/>
-    Copyright © 2023 - {{ new Date().getFullYear() }}<a href="https://itbob.cn/" target="_blank"> IT.BOB</a>丨
+    Copyright © 2023 - {{ new Date().getFullYear() }}<a href="https://wukongsec.com/" target="_blank"> WuKong Security.</a>丨
     <span ref="sitetime" id="sitetime">正在载入网站运行时间...</span>丨
     <!-- <template v-if="footer">
       | Copyright © {{ footer.createYear }}-{{ new Date().getFullYear() }}
