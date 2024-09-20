@@ -47,7 +47,7 @@ module.exports = {
     // `,
     // 赞助商广告
     sidebarT: `
-    <a href="https://www.qg.net/product/proxyip.html?source=spiderapi-s" target="_blank">
+    <a href="https://www.qg.net/product/proxyip.html?web=spiderapi-s" target="_blank">
         <img src="https://static.spiderapi.cn/spiderbox/images/ads/qg2.jpg" alt="bright data" class="no-zoom" style="width: 100%;border-radius: 5px;">
     </a>
     <a href="https://get.brightdata.com/proxyb" target="_blank">
