@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://spiderapi.cn/" target="_blank" rel="noopener noreferrer">
-    <img width="200px" src="/docs/.vuepress/public/img/logo.png" alt="logo">
+    <img width="200px" src="/docs/.vuepress/public/imgages/logo.png" alt="logo">
   </a>
 </p>
 
