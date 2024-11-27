@@ -71,7 +71,7 @@ export default {
                         server: serverToken.server,
                         token: serverToken.token,
                     };
-                    $.post('https://api.spiderapi.cn/vaptcha/login', data, function (r) {
+                    $.post('https://captcha.api.spiderapi.cn/vaptcha/login', data, function (r) {
                         if (r.success) {
                             alert('登录成功！');
                             setTimeout(function() {

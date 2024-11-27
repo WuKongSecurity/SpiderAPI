@@ -51,7 +51,7 @@ export default {
       result['cf-turnstile-response'] = window.turnstileManagedToken;
 
       $.ajax({
-        url: 'https://api.spiderapi.cn/turnstile-invisible/login',
+        url: 'https://captcha.api.spiderapi.cn/turnstile-invisible/login',
         type: 'post',
         dataType: 'json',
         data: result,

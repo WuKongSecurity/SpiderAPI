@@ -38,7 +38,7 @@ export default {
                         return alert('请先完成验证！');
                     }
                     $.ajax({
-                        url: 'https://api.spiderapi.cn/geetest3/validate',
+                        url: 'https://captcha.api.spiderapi.cn/geetest3/validate',
                         type: 'POST',
                         dataType: 'json',
                         data: {
@@ -66,7 +66,7 @@ export default {
                 });
             };
             $.ajax({
-                url: 'https://api.spiderapi.cn/geetest3/register?t=' + (new Date()).getTime(), // 加随机数防止缓存
+                url: 'https://captcha.api.spiderapi.cn/geetest3/register?t=' + (new Date()).getTime(), // 加随机数防止缓存
                 type: 'get',
                 dataType: 'json',
                 success: function (data) {

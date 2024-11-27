@@ -37,7 +37,7 @@ export default {
             } else {
                 $.ajax({
                     type: 'post',
-                    url: 'https://api.spiderapi.cn/verify5/login',
+                    url: 'https://captcha.api.spiderapi.cn/verify5/login',
                     data: {
                         username: $('#username').val(),
                         password: $('#password').val(),

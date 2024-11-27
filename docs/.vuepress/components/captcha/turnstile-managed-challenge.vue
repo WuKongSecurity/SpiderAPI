@@ -49,7 +49,7 @@ export default {
       result['cf-turnstile-response'] = window.turnstileManagedToken;
 
       $.ajax({
-        url: 'https://api.spiderapi.cn/turnstile-managed/login',
+        url: 'https://captcha.api.spiderapi.cn/turnstile-managed/login',
         type: 'post',
         dataType: 'json',
         data: result,

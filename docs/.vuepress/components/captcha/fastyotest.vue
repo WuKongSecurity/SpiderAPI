@@ -57,7 +57,7 @@ export default {
             return alert('请先完成验证！');
             }
             $.ajax({
-                url: 'https://api.spiderapi.cn/fastyotest/login',
+                url: 'https://captcha.api.spiderapi.cn/fastyotest/login',
                 type: 'POST',
                 dataType: 'json',
                 data: {

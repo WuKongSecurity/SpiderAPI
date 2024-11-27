@@ -54,7 +54,7 @@ export default {
                     result['username'] = $('#username').val();
                     result['password'] = $('#password').val();
                     $.ajax({
-                        url: 'https://api.spiderapi.cn/geetest2/login',
+                        url: 'https://captcha.api.spiderapi.cn/geetest2/login',
                         type: 'post',
                         dataType: 'json',
                         data: result,
@@ -71,7 +71,7 @@ export default {
                 });
             };
             $.ajax({
-                url: 'https://api.spiderapi.cn/geetest2/register',
+                url: 'https://captcha.api.spiderapi.cn/geetest2/register',
                 type: 'get',
                 dataType: 'json',
                 success: function (data) {

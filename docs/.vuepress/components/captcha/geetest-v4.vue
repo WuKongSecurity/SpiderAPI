@@ -46,7 +46,7 @@ export default {
                     }
                     result.captcha_id = '4f6147ccd6e9a39ab33608b16e248abc';
                     $.ajax({
-                        url: 'https://api.spiderapi.cn/geetest4/login',
+                        url: 'https://captcha.api.spiderapi.cn/geetest4/login',
                         type: 'post',
                         dataType: 'json',
                         data: result,
