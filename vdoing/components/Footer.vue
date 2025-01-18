@@ -15,7 +15,7 @@
       <a href="https://beian.miit.gov.cn/" target="_blank"><img src="https://static.spiderapi.cn/public/images/logo/icp_48x48.png" alt="ICP 备案" style="width:20px; height:auto; margin-bottom:-2px"> 鄂ICP备19003281号-9</a>丨
       <a href="https://beian.mps.gov.cn/" target="_blank"><img src="https://static.spiderapi.cn/public/images/logo/mps_48x48.png" alt="MPS 公网安备" style="width:auto; height:20px; margin-bottom:-4px"> 鄂公网安备42280202422959</a>丨
       <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src="https://static.spiderapi.cn/public/images/logo/vue_48x48.png" alt="Theme by Vdoing" style="width:18px; height:auto; margin-bottom:-4px"> Theme Vdoing</a>丨
-      <a href="https://cloudbase.net/" target="_blank"><img src="https://static.spiderapi.cn/public/images/logo/cloudbase.png" alt="云开发 CloudBase" style="width:22px; height:auto; margin-bottom:-2px"> CloudBase</a>丨
+      <a href="https://edgeone.ai/" target="_blank"><img src="https://static.spiderapi.cn/public/images/logo/tencent_edgeone_48x48.png" alt="Tencent EdgeOne" style="width:18px; height:auto; margin-bottom:-3px"> Tencent EdgeOne</a>丨
       <a href="https://v6.51.la/land/3FcHt9RWSQ8XvN5u" target="_blank"><img src="https://sdk.51.la/icon/1-1.png" alt="51la 网站统计" style="width:auto; height:12px; margin-bottom:-1px"></a>
     </span>
     <br/>
