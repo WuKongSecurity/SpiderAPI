@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://static.spiderapi.cn/spiderdoc/images/logo.png
+heroImage: https://static.wukongsec.com/spiderdoc/images/logo.png
 heroText: SPIDER API
 tagline: 🚀SpiderAPI - 虫术 - 爬虫逆向常用 API
 #actions:
@@ -174,19 +174,19 @@ data:
 ```yaml
 - name: 李玺
   desc: 中科大数据研究院高级工程师
-  avatar: https://static.spiderapi.cn/spiderdoc/images/other/lx.jpg
+  avatar: https://static.wukongsec.com/spiderdoc/images/other/lx.jpg
   link: https://blog.csdn.net/weixin_43582101
   bgColor: '#FCDBA0' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#A05F2C' # 可选，默认var(--textColor)
 - name: geekbyte
   desc: 移动安全、tls/ja3指纹，公众号编角料
-  avatar: https://static.spiderapi.cn/spiderdoc/images/other/geekbyte.jpg
+  avatar: https://static.wukongsec.com/spiderdoc/images/other/geekbyte.jpg
   link: https://blog.csdn.net/Y_morph
   bgColor: '#CBEAFA'
   textColor: '#6854A1'
 - name: 十一姐
   desc: JS 逆向，公众号逆向OneByOne
-  avatar: https://static.spiderapi.cn/spiderdoc/images/other/shiyi.jpg
+  avatar: https://static.wukongsec.com/spiderdoc/images/other/shiyi.jpg
   link: https://blog.csdn.net/weixin_43411585
   bgColor: '#f1f1f1'
   textColor: '#2A3344'
@@ -221,7 +221,7 @@ data:
   </tbody>
 </table> -->
 
-| <a :href="$withBase('https://static.spiderapi.cn/public/images/info/wechat_art.webp')" target="_blank"><img :src="$withBase('https://static.spiderapi.cn/public/images/info/wechat_art.webp')" class="no-zoom" alt="站长微信 (备注来意)" width=180></a> | <a :href="$withBase('https://static.spiderapi.cn/public/images/info/gzh_art.webp')" target="_blank"><img :src="$withBase('https://static.spiderapi.cn/public/images/info/gzh_art.webp')" class="no-zoom" alt="站长公众号 (虫技)" width=180></a> | <a :href="$withBase('https://static.spiderapi.cn/public/images/info/qq_art.webp')" target="_blank"><img :src="$withBase('https://static.spiderapi.cn/public/images/info/qq_art.webp')" class="no-zoom" alt="QQ 群: 694387113" width=180></a> |
+| <a :href="$withBase('https://static.wukongsec.com/public/images/info/wechat_art.webp')" target="_blank"><img :src="$withBase('https://static.wukongsec.com/public/images/info/wechat_art.webp')" class="no-zoom" alt="站长微信 (备注来意)" width=180></a> | <a :href="$withBase('https://static.wukongsec.com/public/images/info/gzh_art.webp')" target="_blank"><img :src="$withBase('https://static.wukongsec.com/public/images/info/gzh_art.webp')" class="no-zoom" alt="站长公众号 (虫技)" width=180></a> | <a :href="$withBase('https://static.wukongsec.com/public/images/info/qq_art.webp')" target="_blank"><img :src="$withBase('https://static.wukongsec.com/public/images/info/qq_art.webp')" class="no-zoom" alt="QQ 群: 694387113" width=180></a> |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |                                                                                            站长微信 (备注来意)                                                                                             |                                                                                                                站长公众号 (虫技)                                                                                                                |                                                                                                              QQ交流群 (941013658)                                                                                                              |
 
