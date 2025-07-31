@@ -9,12 +9,17 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: TRHX/SpiderAPI
-        TARGET_BRANCH: gh-pages
-        BUILD_SCRIPT: npm install && npm run docs:build
-        BUILD_DIR: docs/.vuepress/dist
-        CNAME: https://spiderapi.cn
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build VuePress site
+      run: npm run docs:build
+
+    - name: Deploy Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        external_repository: WuKongSecurity/SpiderAPI	 # 发布到哪个 repo
+        personal_token: ${{ secrets.ACCESS_TOKEN  }}	# 发布到其他 repo 需要在对应的 repo 上粘贴生成的 personal_access_token
+        publish_dir: docs/.vuepress/dist
+        publish_branch: gh-pages
+        full_commit_message: ${{ github.event.head_commit.message }}
